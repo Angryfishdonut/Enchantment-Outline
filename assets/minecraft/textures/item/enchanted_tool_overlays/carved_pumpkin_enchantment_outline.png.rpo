@@ -1,0 +1,12 @@
+{
+    condition: "EnchantmentOutline.glintColor.purple",
+    fallbacks: [
+      "assets/minecraft/textures/item/enchanted_tool_overlays/blue/carved_pumpkin_enchantment_outline_blue.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/green/carved_pumpkin_enchantment_outline_green.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/yellow/carved_pumpkin_enchantment_outline_yellow.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/orange/carved_pumpkin_enchantment_outline_orange.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/red/carved_pumpkin_enchantment_outline_red.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/white/carved_pumpkin_enchantment_outline_white.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/rainbow/carved_pumpkin_enchantment_outline_white.png"
+    ]
+}

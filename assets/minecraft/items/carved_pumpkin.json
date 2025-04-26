@@ -9,17 +9,18 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/swords/enchanted_wooden_sword"
+          "model": "minecraft:block/carved_pumpkin",
+          "tints": []
         },
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/wooden_sword"
+          "model": "minecraft:item/misc_outlines/e_carved_pumpkin"
         }
       ]
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "minecraft:item/wooden_sword"
+      "model": "minecraft:block/carved_pumpkin"
     }
   }
 }

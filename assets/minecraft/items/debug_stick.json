@@ -1,0 +1,16 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/debug_stick",
+        "tints": []
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/misc_outlines/debug_stick"
+      }
+    ]
+  }
+}

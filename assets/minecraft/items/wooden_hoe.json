@@ -1,11 +1,9 @@
 {
   "model": {
     "type": "minecraft:condition",
-    "property": "minecraft:component",
-    "predicate": "minecraft:enchantments",
-    "value": [
-      {}
-    ],
+        "property": "minecraft:has_component",
+        "component": "minecraft:enchantments",
+        "ignore_default": true,
     "on_true": {
       "type": "minecraft:composite",
       "models": [
