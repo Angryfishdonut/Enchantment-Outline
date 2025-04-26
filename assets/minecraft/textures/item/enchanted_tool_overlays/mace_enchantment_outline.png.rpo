@@ -1,0 +1,12 @@
+{
+    condition: "EnchantmentOutline.glintColor.purple",
+    fallbacks: [
+      "assets/minecraft/textures/item/enchanted_tool_overlays/blue/mace_enchantment_outline_blue.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/green/mace_enchantment_outline_green.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/yellow/mace_enchantment_outline_yellow.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/orange/mace_enchantment_outline_orange.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/red/mace_enchantment_outline_red.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/white/mace_enchantment_outline_white.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/rainbow/mace_enchantment_outline_white.png"
+    ]
+}

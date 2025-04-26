@@ -1,0 +1,12 @@
+{
+    condition: "EnchantmentOutline.glintColor.purple",
+    fallbacks: [
+      "assets/minecraft/textures/item/enchanted_tool_overlays/blue/shovel_enchantment_outline_blue.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/green/shovel_enchantment_outline_green.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/yellow/shovel_enchantment_outline_yellow.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/orange/shovel_enchantment_outline_orange.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/red/shovel_enchantment_outline_red.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/white/shovel_enchantment_outline_white.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/rainbow/shield_enchantment_outline_white.png"
+    ]
+}

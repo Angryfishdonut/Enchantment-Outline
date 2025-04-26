@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+        "property": "minecraft:has_component",
+        "component": "minecraft:enchantments",
+        "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shears",
+          "tints": []
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/misc_outlines/enchanted_shears"
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/shears"
+    }
+  }
+}

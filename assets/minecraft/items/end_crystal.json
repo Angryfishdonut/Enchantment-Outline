@@ -1,0 +1,16 @@
+{
+    "model": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/end_crystal",
+          "tints": []
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/misc_outlines/end_crystal"
+        }
+      ]
+    }
+  }

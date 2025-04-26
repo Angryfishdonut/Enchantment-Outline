@@ -1,0 +1,12 @@
+{
+    condition: "EnchantmentOutline.glintColor.purple",
+    fallbacks: [
+      "assets/minecraft/textures/misc/blue/enchanted_glint_item_blue.png",
+      "assets/minecraft/textures/misc/green/enchanted_glint_item_green.png",
+      "assets/minecraft/textures/misc/yellow/enchanted_glint_item_yellow.png",
+      "assets/minecraft/textures/misc/orange/enchanted_glint_item_orange.png",
+      "assets/minecraft/textures/misc/red/enchanted_glint_item_red.png",
+      "assets/minecraft/textures/misc/white/enchanted_glint_item_white.png",
+      "assets/minecraft/textures/misc/rainbow/enchanted_glint_item_rainbow.png"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/emissive_layered_sword",
+  "textures": {
+    "base": "minecraft:item/netherite_sword",
+    "glow":"minecraft:item/enchanted_tool_overlays/sword_enchantment_outline"
+  }
+}

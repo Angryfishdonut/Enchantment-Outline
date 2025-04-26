@@ -1,0 +1,8 @@
+{
+    id: "EnchantmentOutline",
+    version: 13,
+    capabilities: ["FileFilter", "DirFilter"],
+    conf: {
+            glintColor: ["purple", "blue", "green", "yellow", "orange", "red", "white", "rainbow"]
+    }
+}

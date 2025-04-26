@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/emissive_layered_pickaxe",
+  "textures": {
+    "base": "minecraft:item/stone_pickaxe",
+    "glow":"minecraft:item/enchanted_tool_overlays/pickaxe_enchantment_outline"
+  }
+}

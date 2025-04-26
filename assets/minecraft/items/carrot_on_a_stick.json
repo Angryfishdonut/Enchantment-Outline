@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+        "property": "minecraft:has_component",
+        "component": "minecraft:enchantments",
+        "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/carrot_on_a_stick",
+          "tints": []
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/fishing_rods/enchanted_carrot_on_a_stick"
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/carrot_on_a_stick"
+    }
+  }
+}

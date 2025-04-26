@@ -1,0 +1,16 @@
+{
+    "model": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/nether_star",
+          "tints": []
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/misc_outlines/nether_star"
+        }
+      ]
+    }
+  }

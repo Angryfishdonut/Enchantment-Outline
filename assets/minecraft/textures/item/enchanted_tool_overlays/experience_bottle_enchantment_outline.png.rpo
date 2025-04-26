@@ -1,0 +1,12 @@
+{
+    condition: "EnchantmentOutline.glintColor.purple",
+    fallbacks: [
+      "assets/minecraft/textures/item/enchanted_tool_overlays/blue/experience_bottle_enchantment_outline_blue.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/green/experience_bottle_enchantment_outline_green.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/yellow/experience_bottle_enchantment_outline_yellow.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/orange/experience_bottle_enchantment_outline_orange.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/red/experience_bottle_enchantment_outline_red.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/white/experience_bottle_enchantment_outline_white.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/rainbow/experience_bottle_enchantment_outline_white.png"
+    ]
+}

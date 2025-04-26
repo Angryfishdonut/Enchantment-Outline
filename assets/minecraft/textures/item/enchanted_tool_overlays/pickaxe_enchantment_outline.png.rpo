@@ -1,0 +1,12 @@
+{
+    condition: "EnchantmentOutline.glintColor.purple",
+    fallbacks: [
+      "assets/minecraft/textures/item/enchanted_tool_overlays/blue/pickaxe_enchantment_outline_blue.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/green/pickaxe_enchantment_outline_green.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/yellow/pickaxe_enchantment_outline_yellow.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/orange/pickaxe_enchantment_outline_orange.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/red/pickaxe_enchantment_outline_red.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/white/pickaxe_enchantment_outline_white.png",
+      "assets/minecraft/textures/item/enchanted_tool_overlays/rainbow/pickaxe_enchantment_outline_white.png"
+    ]
+}

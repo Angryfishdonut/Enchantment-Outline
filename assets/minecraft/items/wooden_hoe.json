@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:enchantments",
+    "value": [
+      {}
+    ],
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/hoes/enchanted_wooden_hoe"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/wooden_hoe"
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/wooden_hoe"
+    }
+  }
+}

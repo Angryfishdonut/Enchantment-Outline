@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:enchantments",
+    "value": [
+      {}
+    ],
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shovels/enchanted_wooden_shovel"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/wooden_shovel"
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/wooden_shovel"
+    }
+  }
+}

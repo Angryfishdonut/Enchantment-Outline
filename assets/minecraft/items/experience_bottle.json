@@ -1,0 +1,16 @@
+{
+    "model": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/experience_bottle",
+          "tints": []
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/misc_outlines/experience_bottle"
+        }
+      ]
+    }
+  }

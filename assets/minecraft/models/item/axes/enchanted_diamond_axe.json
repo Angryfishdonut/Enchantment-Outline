@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/emissive_layered_axe",
+  "textures": {
+    "base": "minecraft:item/diamond_axe",
+    "glow":"minecraft:item/enchanted_tool_overlays/axe_enchantment_outline"
+  }
+}
