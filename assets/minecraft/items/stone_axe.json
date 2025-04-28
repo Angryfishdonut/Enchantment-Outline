@@ -9,7 +9,7 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/axes/enchanted_stone_axe"
+          "model": "minecraft:item/enchanted_axe"
         },
         {
           "type": "minecraft:model",

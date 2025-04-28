@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/emissive_layered_shovel",
-  "textures": {
-    "base": "minecraft:item/stone_shovel",
-    "glow":"minecraft:item/enchanted_tool_overlays/shovel_enchantment_outline"
-  }
-}

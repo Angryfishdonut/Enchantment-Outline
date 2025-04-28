@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/emissive_layered_hoe",
-  "textures": {
-    "base": "minecraft:item/diamond_hoe",
-    "glow":"minecraft:item/enchanted_tool_overlays/hoe_enchantment_outline"
-  }
-}

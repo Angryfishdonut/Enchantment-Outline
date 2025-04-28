@@ -9,7 +9,7 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/swords/enchanted_golden_sword"
+          "model": "minecraft:item/enchanted_sword"
         },
         {
           "type": "minecraft:model",

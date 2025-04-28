@@ -9,7 +9,7 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/hoes/enchanted_golden_hoe"
+          "model": "minecraft:item/enchanted_hoe"
         },
         {
           "type": "minecraft:model",

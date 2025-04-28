@@ -9,7 +9,7 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/pickaxes/enchanted_netherite_pickaxe"
+          "model": "minecraft:item/enchanted_pickaxe"
         },
         {
           "type": "minecraft:model",

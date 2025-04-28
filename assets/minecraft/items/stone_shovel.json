@@ -9,7 +9,7 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/shovels/enchanted_stone_shovel"
+          "model": "minecraft:item/enchanted_shovel"
         },
         {
           "type": "minecraft:model",
