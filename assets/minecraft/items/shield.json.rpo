@@ -1,0 +1,6 @@
+{
+    condition: "Compatibility.Shields.Vanilla",
+    fallbacks: [
+      "assets/minecraft/items/shield_vt_lower.json"
+    ]
+}

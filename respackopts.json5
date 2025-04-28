@@ -3,6 +3,10 @@
     version: 13,
     capabilities: ["FileFilter", "DirFilter"],
     conf: {
-            glintColor: ["purple", "blue", "green", "yellow", "orange", "red", "white", "rainbow"]
+            glintColor: ["purple", "blue", "green", "yellow", "orange", "red", "white", "rainbow"],
+            Compatibility : {
+                    Mace: ["Vanilla", "Vt3d"],
+                    Shields: ["Vanilla", "VtLower"]
+                    }
     }
 }

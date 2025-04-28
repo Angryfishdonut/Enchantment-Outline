@@ -12,7 +12,7 @@
         "models": [
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/shields/enchanted_shield"
+            "model": "minecraft:item/shields/enchanted_vt_shield_lower"
           },
           {
             "type": "minecraft:special",
@@ -28,7 +28,7 @@
         "models": [
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/shields/enchanted_shield_blocking"
+            "model": "minecraft:item/shields/enchanted_vt_shield_lower_blocking"
           },
           {
             "type": "minecraft:special",
