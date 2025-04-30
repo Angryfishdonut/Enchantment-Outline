@@ -1,9 +1,9 @@
 {
   "model": {
     "type": "minecraft:condition",
-        "property": "minecraft:has_component",
-        "component": "minecraft:enchantments",
-        "ignore_default": true,
+    "property": "minecraft:has_component",
+    "component": "minecraft:enchantments",
+    "ignore_default": true,
     "on_true": {
       "property": "minecraft:using_item",
       "type": "minecraft:condition",
@@ -11,8 +11,21 @@
         "type": "minecraft:composite",
         "models": [
           {
-            "type": "minecraft:model",
-            "model": "minecraft:item/shields/enchanted_vt_shield_lower"
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": "firstperson_righthand",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/shields/enchanted_vt_shield_lower_right"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/shields/enchanted_vt_shield_lower"
+            }
           },
           {
             "type": "minecraft:special",
@@ -27,8 +40,28 @@
         "type": "minecraft:composite",
         "models": [
           {
-            "type": "minecraft:model",
-            "model": "minecraft:item/shields/enchanted_vt_shield_lower_blocking"
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": "firstperson_lefthand",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/shields/enchanted_vt_shield_lower_blocking_left"
+                }
+              },
+              {
+                "when": "firstperson_righthand",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/shields/enchanted_vt_shield_lower_blocking_right"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/shields/enchanted_vt_shield_lower"
+            }
           },
           {
             "type": "minecraft:special",

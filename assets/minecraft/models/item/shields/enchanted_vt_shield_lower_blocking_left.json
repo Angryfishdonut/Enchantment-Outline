@@ -9,7 +9,7 @@
 		{
 			"name": "Cube",
 			"from": [1.9, -0.1, 12.1],
-			"to": [14.1, 22.1, 10.9],
+			"to": [14.1, 20.5, 10.9],
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 1.1]},
 			"faces": {
@@ -54,7 +54,7 @@
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 180, -5],
-			"translation": [-3.85, -9.5, 1.5],
+			"translation": [-3.95, -9.5, 1.5],
 			"scale": [1.25, 1.25, 1.25]
 		},
 		"ground": {

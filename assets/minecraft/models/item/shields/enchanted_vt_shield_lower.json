@@ -8,8 +8,8 @@
 	"elements": [
 		{
 			"name": "Cube",
-			"from": [1.9, -0.1, 12.1],
-			"to": [14.1, 20.2, 10.9],
+			"from": [2.1, -0.1, 12.1],
+			"to": [14.1, 20.1, 10.9],
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 1.1]},
 			"faces": {
@@ -37,6 +37,7 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, 90, 0],
@@ -62,7 +63,7 @@
 		},
 		"gui": {
 			"rotation": [15, -25, -5],
-			"translation": [-0.75, -1.25, -10],
+			"translation": [-0.5, -1.25, -10],
 			"scale": [0.7, 0.7, 0.7]
 		},
 		"fixed": {
