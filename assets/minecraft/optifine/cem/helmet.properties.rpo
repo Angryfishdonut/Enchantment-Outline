@@ -1,0 +1,6 @@
+{
+    condition: "EnchantmentOutline.armor.on",
+    fallbacks: [
+      "assets/minecraft/optifine/cem/off/no_helmet.properties"
+    ]
+}

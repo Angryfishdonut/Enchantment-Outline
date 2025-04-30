@@ -1,7 +1,7 @@
 {
     id: "EnchantmentOutline",
     version: 13,
-    capabilities: ["FileFilter", "DirFilter"],
+    capabilities: ["FileFilter", "DirFilter", "DirFilterAdditive"],
     conf: {
             glintColor: ["purple", "blue", "green", "yellow", "orange", "red", "white", "rainbow"],
             armor: ["on", "off"],
@@ -9,6 +9,5 @@
                     Mace: ["Vanilla", "Vt3d"],
                     Shields: ["Vanilla", "VtLower"]
                     }
-
     }
 }
