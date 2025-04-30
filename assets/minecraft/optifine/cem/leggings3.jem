@@ -16,7 +16,7 @@
 					"id": "body_glint",
 					"invertAxis": "xy",
 					"translate": [0, -0.3, 0],
-					"texture": "e_leggings_outline.png",
+					"texture": "e_leggings_outline_n.png",
 					"textureSize": [64, 32],
 					"submodels": [
 						{
@@ -93,7 +93,7 @@
 					"id": "outer_body_glint",
 					"invertAxis": "xy",
 					"translate": [0, -0.2, 0],
-					"texture": "e_leggings_outline.png",
+					"texture": "e_leggings_outline_n.png",
 					"textureSize": [64, 32],
 					"submodels": [
 						{
@@ -214,7 +214,7 @@
 					"id": "right_leg_glint",
 					"invertAxis": "xy",
 					"translate": [1.9, 12, 0],
-					"texture": "e_leggings_outline.png",
+					"texture": "e_leggings_outline_n.png",
 					"textureSize": [64, 32],
 					"submodels": [
 						{
@@ -291,7 +291,7 @@
 					"id": "outer_right_leg_glint",
 					"invertAxis": "xy",
 					"translate": [1.9, 12, 0],
-					"texture": "e_leggings_outline.png",
+					"texture": "e_leggings_outline_n.png",
 					"textureSize": [64, 32],
 					"submodels": [
 						{
@@ -397,7 +397,7 @@
 					"id": "outer_left_leg_glint",
 					"invertAxis": "xy",
 					"translate": [-1.9, 12, 0],
-					"texture": "e_leggings_outline.png",
+					"texture": "e_leggings_outline_n.png",
 					"textureSize": [64, 32],
 					"submodels": [
 						{
@@ -491,7 +491,7 @@
 					"id": "left_leg_glint",
 					"invertAxis": "xy",
 					"translate": [-1.9, 12, 0],
-					"texture": "e_leggings_outline.png",
+					"texture": "e_leggings_outline_n.png",
 					"textureSize": [64, 32],
 					"submodels": [
 						{
