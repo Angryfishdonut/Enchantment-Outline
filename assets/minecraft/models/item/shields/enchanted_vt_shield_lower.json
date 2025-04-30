@@ -49,7 +49,7 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 180, 5],
-			"translation": [-1.25, -12.5, 2.5],
+			"translation": [-1.1, -12.7, 2.5],
 			"scale": [1.25, 1.25, 1.25]
 		},
 		"firstperson_lefthand": {
