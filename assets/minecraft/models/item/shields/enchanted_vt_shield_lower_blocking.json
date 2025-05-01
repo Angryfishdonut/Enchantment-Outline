@@ -54,12 +54,12 @@
 			"scale": [1.25, 1.25, 1.25]
 		},
 		"ground": {
-			"translation": [0, 4, 0],
+			"translation": [0, 1.25, -0.5],
 			"scale": [0.25, 0.25, 0.25]
 		},
 		"gui": {
 			"rotation": [15, -25, -5],
-			"translation": [-0.5, -1.25, -10],
+			"translation": [-1.375, -1.52, -10],
 			"scale": [0.7, 0.7, 0.7]
 		},
 		"fixed": {
