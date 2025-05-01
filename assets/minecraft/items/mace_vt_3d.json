@@ -9,7 +9,7 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/maces/enchanted_mace"
+          "model": "minecraft:item/maces/enchanted_vt_mace_3d"
         },
         {
           "type": "minecraft:model",

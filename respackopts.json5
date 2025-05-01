@@ -4,6 +4,10 @@
     capabilities: ["FileFilter", "DirFilter", "DirFilterAdditive"],
     conf: {
             glintColor: ["purple", "blue", "green", "yellow", "orange", "red", "white", "rainbow"],
-            armor: ["on", "off"]
+            armor: ["on", "off"],
+            Compatibility : {
+                    Mace: ["Vanilla", "Vt3d"],
+                    Shields: ["Vanilla", "VtLower"]
+                    }
     }
 }

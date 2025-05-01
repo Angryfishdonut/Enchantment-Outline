@@ -1,0 +1,6 @@
+{
+    condition: "Compatibility.Mace.Vanilla",
+    fallbacks: [
+      "assets/minecraft/items/mace_vt_3d.json"
+    ]
+}

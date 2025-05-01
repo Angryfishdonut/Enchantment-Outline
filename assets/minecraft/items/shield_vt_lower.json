@@ -1,9 +1,9 @@
 {
   "model": {
     "type": "minecraft:condition",
-        "property": "minecraft:has_component",
-        "component": "minecraft:enchantments",
-        "ignore_default": true,
+    "property": "minecraft:has_component",
+    "component": "minecraft:enchantments",
+    "ignore_default": true,
     "on_true": {
       "property": "minecraft:using_item",
       "type": "minecraft:condition",
@@ -12,7 +12,7 @@
         "models": [
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/shields/enchanted_shield"
+            "model": "minecraft:item/shields/enchanted_vt_shield_lower"
           },
           {
             "type": "minecraft:special",
@@ -27,8 +27,21 @@
         "type": "minecraft:composite",
         "models": [
           {
-            "type": "minecraft:model",
-            "model": "minecraft:item/shields/enchanted_shield_blocking"
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": "thirdperson_lefthand",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/shields/enchanted_vt_shield_lower_blocking_third_left"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/shields/enchanted_vt_shield_lower_blocking"
+            }
           },
           {
             "type": "minecraft:special",
