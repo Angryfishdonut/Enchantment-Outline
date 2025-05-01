@@ -8,8 +8,38 @@
       "type": "minecraft:composite",
       "models": [
         {
-          "type": "minecraft:model",
-          "model": "minecraft:item/enchanted_sword"
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:damage",
+          "entries": [
+            {
+              "threshold": 0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/enchanted_pickaxe"
+              }
+            },
+            {
+              "threshold": 0.85,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/diminishing/enchanted_pickaxe_1"
+              }
+            },
+            {
+              "threshold": 0.9,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/diminishing/enchanted_pickaxe_2"
+              }
+            },
+            {
+              "threshold": 0.95,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/diminishing/enchanted_pickaxe_3"
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:range_dispatch",
@@ -19,28 +49,28 @@
               "threshold": 0,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diamond_sword"
+                "model": "minecraft:item/diamond_pickaxe"
               }
             },
             {
               "threshold": 0.85,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diamond_sword/diamond_sword_1"
+                "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_02"
               }
             },
             {
               "threshold": 0.9,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diamond_sword/diamond_sword_2"
+                "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_03"
               }
             },
             {
               "threshold": 0.95,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diamond_sword/diamond_sword_3"
+                "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_04"
               }
             }
           ]
@@ -55,28 +85,28 @@
           "threshold": 0,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/diamond_sword"
+            "model": "minecraft:item/diamond_pickaxe"
           }
         },
         {
           "threshold": 0.85,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/diamond_sword/diamond_sword_1"
+            "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_02"
           }
         },
         {
           "threshold": 0.9,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/diamond_sword/diamond_sword_2"
+            "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_03"
           }
         },
         {
           "threshold": 0.95,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/diamond_sword/diamond_sword_3"
+            "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_04"
           }
         }
       ]

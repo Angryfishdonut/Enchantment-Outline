@@ -6,6 +6,7 @@
             glintColor: ["purple", "blue", "green", "yellow", "orange", "red", "white", "rainbow"],
             armor: ["on", "off"],
             Compatibility : {
+                    diminishingTools: ["off", "on"],
                     Mace: ["Vanilla", "Vt3d"],
                     Shields: ["Vanilla", "VtLower"]
                     }
