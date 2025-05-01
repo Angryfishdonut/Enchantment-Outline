@@ -1,0 +1,6 @@
+{
+    condition: "EnchantmentOutline.Compatibility.diminishingTools.off",
+    fallbacks: [
+      "assets/minecraft/items/diminishing_items/diminishing_netherite_shovel.json"
+    ]
+}

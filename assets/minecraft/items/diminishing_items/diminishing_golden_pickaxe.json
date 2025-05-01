@@ -56,21 +56,21 @@
               "threshold": 0.85,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/golden_pickaxe/golden_pickaxe_02"
+                "model": "minecraft:item/gold_pickaxe/gold_pickaxe_02"
               }
             },
             {
               "threshold": 0.9,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/golden_pickaxe/golden_pickaxe_03"
+                "model": "minecraft:item/gold_pickaxe/gold_pickaxe_03"
               }
             },
             {
               "threshold": 0.95,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/golden_pickaxe/golden_pickaxe_04"
+                "model": "minecraft:item/gold_pickaxe/gold_pickaxe_04"
               }
             }
           ]
@@ -92,21 +92,21 @@
           "threshold": 0.85,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_pickaxe/golden_pickaxe_02"
+            "model": "minecraft:item/gold_pickaxe/gold_pickaxe_02"
           }
         },
         {
           "threshold": 0.9,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_pickaxe/golden_pickaxe_03"
+            "model": "minecraft:item/gold_pickaxe/gold_pickaxe_03"
           }
         },
         {
           "threshold": 0.95,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_pickaxe/golden_pickaxe_04"
+            "model": "minecraft:item/gold_pickaxe/gold_pickaxe_04"
           }
         }
       ]

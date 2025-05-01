@@ -15,28 +15,28 @@
               "threshold": 0,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/enchanted_pickaxe"
+                "model": "minecraft:item/enchanted_hoe"
               }
             },
             {
               "threshold": 0.85,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diminishing/enchanted_pickaxe_1"
+                "model": "minecraft:item/diminishing/enchanted_hoe_1"
               }
             },
             {
               "threshold": 0.9,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diminishing/enchanted_pickaxe_2"
+                "model": "minecraft:item/diminishing/enchanted_hoe_2"
               }
             },
             {
               "threshold": 0.95,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diminishing/enchanted_pickaxe_3"
+                "model": "minecraft:item/diminishing/enchanted_hoe_3"
               }
             }
           ]
@@ -49,28 +49,28 @@
               "threshold": 0,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/netherite_pickaxe"
+                "model": "minecraft:item/wooden_hoe"
               }
             },
             {
               "threshold": 0.85,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/netherite_pickaxe/netherite_pickaxe_02"
+                "model": "minecraft:item/wooden_hoe/wooden_hoe_02"
               }
             },
             {
               "threshold": 0.9,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/netherite_pickaxe/netherite_pickaxe_03"
+                "model": "minecraft:item/wooden_hoe/wooden_hoe_03"
               }
             },
             {
               "threshold": 0.95,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/netherite_pickaxe/netherite_pickaxe_04"
+                "model": "minecraft:item/wooden_hoe/wooden_hoe_04"
               }
             }
           ]
@@ -85,28 +85,28 @@
           "threshold": 0,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/netherite_pickaxe"
+            "model": "minecraft:item/wooden_hoe"
           }
         },
         {
           "threshold": 0.85,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/netherite_pickaxe/netherite_pickaxe_02"
+            "model": "minecraft:item/wooden_hoe/wooden_hoe_02"
           }
         },
         {
           "threshold": 0.9,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/netherite_pickaxe/netherite_pickaxe_03"
+            "model": "minecraft:item/wooden_hoe/wooden_hoe_03"
           }
         },
         {
           "threshold": 0.95,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/netherite_pickaxe/netherite_pickaxe_04"
+            "model": "minecraft:item/wooden_hoe/wooden_hoe_04"
           }
         }
       ]

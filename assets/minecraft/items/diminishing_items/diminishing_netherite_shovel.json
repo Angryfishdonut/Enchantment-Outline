@@ -15,28 +15,28 @@
               "threshold": 0,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/enchanted_pickaxe"
+                "model": "minecraft:item/enchanted_shovel"
               }
             },
             {
               "threshold": 0.85,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diminishing/enchanted_pickaxe_1"
+                "model": "minecraft:item/diminishing/enchanted_shovel_1"
               }
             },
             {
               "threshold": 0.9,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diminishing/enchanted_pickaxe_2"
+                "model": "minecraft:item/diminishing/enchanted_shovel_2"
               }
             },
             {
               "threshold": 0.95,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diminishing/enchanted_pickaxe_3"
+                "model": "minecraft:item/diminishing/enchanted_shovel_3"
               }
             }
           ]
@@ -49,28 +49,28 @@
               "threshold": 0,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/netherite_pickaxe"
+                "model": "minecraft:item/netherite_shovel"
               }
             },
             {
               "threshold": 0.85,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/netherite_pickaxe/netherite_pickaxe_02"
+                "model": "minecraft:item/netherite_shovel/netherite_shovel_02"
               }
             },
             {
               "threshold": 0.9,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/netherite_pickaxe/netherite_pickaxe_03"
+                "model": "minecraft:item/netherite_shovel/netherite_shovel_03"
               }
             },
             {
               "threshold": 0.95,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/netherite_pickaxe/netherite_pickaxe_04"
+                "model": "minecraft:item/netherite_shovel/netherite_shovel_04"
               }
             }
           ]
@@ -85,28 +85,28 @@
           "threshold": 0,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/netherite_pickaxe"
+            "model": "minecraft:item/netherite_shovel"
           }
         },
         {
           "threshold": 0.85,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/netherite_pickaxe/netherite_pickaxe_02"
+            "model": "minecraft:item/netherite_shovel/netherite_shovel_02"
           }
         },
         {
           "threshold": 0.9,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/netherite_pickaxe/netherite_pickaxe_03"
+            "model": "minecraft:item/netherite_shovel/netherite_shovel_03"
           }
         },
         {
           "threshold": 0.95,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/netherite_pickaxe/netherite_pickaxe_04"
+            "model": "minecraft:item/netherite_shovel/netherite_shovel_04"
           }
         }
       ]
