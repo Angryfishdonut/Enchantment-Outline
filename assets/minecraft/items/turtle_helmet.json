@@ -9,7 +9,7 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/enchanted_helmet_turtle"
+          "model": "minecraft:item/enchanted_turtle_helmet"
         },
         {
           "type": "minecraft:select",
