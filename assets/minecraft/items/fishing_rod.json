@@ -12,7 +12,7 @@
             "models": [
               {
                 "type": "minecraft:model",
-                "model": "minecraft:item/fishing_rods/fishing_rod"
+                "model": "minecraft:item/fishing_rods/e_fishing_rod"
               },
               {
                 "type": "minecraft:model",
@@ -25,7 +25,7 @@
             "models": [
               {
                 "type": "minecraft:model",
-                "model": "minecraft:item/fishing_rods/fishing_rod_cast"
+                "model": "minecraft:item/fishing_rods/e_fishing_rod_cast"
               },
               {
                 "type": "minecraft:model",
