@@ -36,14 +36,50 @@
       },
       "on_false": {
         "type": "minecraft:condition",
-        "property": "minecraft:fishing_rod/cast",
-        "on_false": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/fishing_rod"
-        },
+          "property": "minecraft:has_component",
+          "component": "minecraft:enchantment_glint_override",
+          "ignore_default": true,
         "on_true": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/fishing_rod_cast"
+          "type": "minecraft:condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_false": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/fishing_rods/e_fishing_rod"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/fishing_rod"
+                }
+              ]
+          },
+          "on_true": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/fishing_rods/e_fishing_rod_cast"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/fishing_rod_cast"
+                }
+              ]
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:fishing_rod/cast",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/fishing_rod"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/fishing_rod_cast"
+          }
         }
       }
     }

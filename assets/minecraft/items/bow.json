@@ -75,35 +75,110 @@
       },
       "on_false": {
         "type": "minecraft:condition",
-        "property": "minecraft:using_item",
-        "on_false": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/bow"
-        },
+          "property": "minecraft:has_component",
+          "component": "minecraft:enchantment_glint_override",
+          "ignore_default": true,
         "on_true": {
-          "type": "minecraft:range_dispatch",
-          "entries": [
-            {
-              "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:composite",
+            "models": [
+              {
                 "type": "minecraft:model",
-                "model": "minecraft:item/bow_pulling_1"
+                "model": "minecraft:item/bow"
               },
-              "threshold": 0.65
-            },
-            {
-              "model": {
+              {
                 "type": "minecraft:model",
-                "model": "minecraft:item/bow_pulling_2"
-              },
-              "threshold": 0.9
-            }
-          ],
-          "fallback": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/bow_pulling_0"
+                "model": "minecraft:item/bows/e_bow"
+              }
+            ]
           },
-          "property": "minecraft:use_duration",
-          "scale": 0.05
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "entries": [
+              {
+                "model": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/bow_pulling_1"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/bows/e_bow_pulling_1"
+                    }
+                  ]
+                },
+                "threshold": 0.65
+              },
+              {
+                "model": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/bow_pulling_2"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/bows/e_bow_pulling_2"
+                    }
+                  ]
+                },
+                "threshold": 0.9
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bow_pulling_0"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bows/e_bow_pulling_0"
+                }
+              ]
+            },
+            "property": "minecraft:use_duration",
+            "scale": 0.05
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bow"
+          },
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "entries": [
+              {
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bow_pulling_1"
+                },
+                "threshold": 0.65
+              },
+              {
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bow_pulling_2"
+                },
+                "threshold": 0.9
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bow_pulling_0"
+            },
+            "property": "minecraft:use_duration",
+            "scale": 0.05
+          }
         }
       }
     }

@@ -4,8 +4,7 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/end_crystal",
-          "tints": []
+          "model": "minecraft:item/end_crystal"
         },
         {
           "type": "minecraft:model",

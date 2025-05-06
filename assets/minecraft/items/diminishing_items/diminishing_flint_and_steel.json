@@ -78,6 +78,48 @@
       ]
     },
     "on_false": {
+      "type": "minecraft:condition",
+          "property": "minecraft:has_component",
+          "component": "minecraft:enchantment_glint_override",
+          "ignore_default": true,
+      "on_true": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:damage",
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/flint_and_steel"
+                }
+              },
+              {
+                "threshold": 0.85,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/flint_and_steel/flint_and_steel_02"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/flint_and_steel/flint_and_steel_03"
+                }
+              },
+              {
+                "threshold": 0.95,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/flint_and_steel/flint_and_steel_04"
+                }
+              }
+            ]
+          },
+          {
       "type": "minecraft:range_dispatch",
       "property": "minecraft:damage",
       "entries": [
@@ -85,31 +127,68 @@
           "threshold": 0,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/flint_and_steel"
+            "model": "minecraft:item/misc_outlines/enchanted_flint_and_steel"
           }
         },
         {
           "threshold": 0.85,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/flint_and_steel/flint_and_steel_02"
+            "model": "minecraft:item/diminishing/misc_outlines/enchanted_flint_and_steel_02"
           }
         },
         {
           "threshold": 0.9,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/flint_and_steel/flint_and_steel_03"
+            "model": "minecraft:item/diminishing/misc_outlines/enchanted_flint_and_steel_03"
           }
         },
         {
           "threshold": 0.95,
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/flint_and_steel/flint_and_steel_04"
+            "model": "minecraft:item/diminishing/misc_outlines/enchanted_flint_and_steel_04"
           }
         }
       ]
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:damage",
+        "entries": [
+          {
+            "threshold": 0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/flint_and_steel"
+            }
+          },
+          {
+            "threshold": 0.85,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/flint_and_steel/flint_and_steel_02"
+            }
+          },
+          {
+            "threshold": 0.9,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/flint_and_steel/flint_and_steel_03"
+            }
+          },
+          {
+            "threshold": 0.95,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/flint_and_steel/flint_and_steel_04"
+            }
+          }
+        ]
+      }
     }
   }
 }

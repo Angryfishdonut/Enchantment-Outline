@@ -3,491 +3,1032 @@
     "type": "minecraft:condition",
     "component": "minecraft:lodestone_tracker",
     "on_false": {
-      "type": "minecraft:select",
-      "cases": [
-        {
-          "model": {
-            "type": "minecraft:range_dispatch",
-            "entries": [
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_16"
+      "type": "minecraft:condition",
+      "component": "minecraft:enchantment_glint_override",
+      "on_false": {
+        "type": "minecraft:select",
+        "cases": [
+          {
+            "model": {
+              "type": "minecraft:range_dispatch",
+              "entries": [
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_16"
+                  },
+                  "threshold": 0
                 },
-                "threshold": 0
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_17"
+                  },
+                  "threshold": 0.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_18"
+                  },
+                  "threshold": 1.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_19"
+                  },
+                  "threshold": 2.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_20"
+                  },
+                  "threshold": 3.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_21"
+                  },
+                  "threshold": 4.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_22"
+                  },
+                  "threshold": 5.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_23"
+                  },
+                  "threshold": 6.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_24"
+                  },
+                  "threshold": 7.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_25"
+                  },
+                  "threshold": 8.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_26"
+                  },
+                  "threshold": 9.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_27"
+                  },
+                  "threshold": 10.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_28"
+                  },
+                  "threshold": 11.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_29"
+                  },
+                  "threshold": 12.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_30"
+                  },
+                  "threshold": 13.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_31"
+                  },
+                  "threshold": 14.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_00"
+                  },
+                  "threshold": 15.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_01"
+                  },
+                  "threshold": 16.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_02"
+                  },
+                  "threshold": 17.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_03"
+                  },
+                  "threshold": 18.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_04"
+                  },
+                  "threshold": 19.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_05"
+                  },
+                  "threshold": 20.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_06"
+                  },
+                  "threshold": 21.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_07"
+                  },
+                  "threshold": 22.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_08"
+                  },
+                  "threshold": 23.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_09"
+                  },
+                  "threshold": 24.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_10"
+                  },
+                  "threshold": 25.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_11"
+                  },
+                  "threshold": 26.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_12"
+                  },
+                  "threshold": 27.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_13"
+                  },
+                  "threshold": 28.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_14"
+                  },
+                  "threshold": 29.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_15"
+                  },
+                  "threshold": 30.5
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/compass_16"
+                  },
+                  "threshold": 31.5
+                }
+              ],
+              "property": "minecraft:compass",
+              "scale": 32,
+              "target": "spawn"
+            },
+            "when": "minecraft:overworld"
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:range_dispatch",
+          "entries": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_16"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_17"
-                },
-                "threshold": 0.5
+              "threshold": 0
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_17"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_18"
-                },
-                "threshold": 1.5
+              "threshold": 0.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_18"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_19"
-                },
-                "threshold": 2.5
+              "threshold": 1.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_19"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_20"
-                },
-                "threshold": 3.5
+              "threshold": 2.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_20"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_21"
-                },
-                "threshold": 4.5
+              "threshold": 3.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_21"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_22"
-                },
-                "threshold": 5.5
+              "threshold": 4.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_22"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_23"
-                },
-                "threshold": 6.5
+              "threshold": 5.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_23"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_24"
-                },
-                "threshold": 7.5
+              "threshold": 6.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_24"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_25"
-                },
-                "threshold": 8.5
+              "threshold": 7.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_25"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_26"
-                },
-                "threshold": 9.5
+              "threshold": 8.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_26"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_27"
-                },
-                "threshold": 10.5
+              "threshold": 9.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_27"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_28"
-                },
-                "threshold": 11.5
+              "threshold": 10.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_28"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_29"
-                },
-                "threshold": 12.5
+              "threshold": 11.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_29"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_30"
-                },
-                "threshold": 13.5
+              "threshold": 12.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_30"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_31"
-                },
-                "threshold": 14.5
+              "threshold": 13.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_31"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_00"
-                },
-                "threshold": 15.5
+              "threshold": 14.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_00"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_01"
-                },
-                "threshold": 16.5
+              "threshold": 15.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_01"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_02"
-                },
-                "threshold": 17.5
+              "threshold": 16.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_02"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_03"
-                },
-                "threshold": 18.5
+              "threshold": 17.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_03"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_04"
-                },
-                "threshold": 19.5
+              "threshold": 18.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_04"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_05"
-                },
-                "threshold": 20.5
+              "threshold": 19.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_05"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_06"
-                },
-                "threshold": 21.5
+              "threshold": 20.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_06"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_07"
-                },
-                "threshold": 22.5
+              "threshold": 21.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_07"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_08"
-                },
-                "threshold": 23.5
+              "threshold": 22.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_08"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_09"
-                },
-                "threshold": 24.5
+              "threshold": 23.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_09"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_10"
-                },
-                "threshold": 25.5
+              "threshold": 24.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_10"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_11"
-                },
-                "threshold": 26.5
+              "threshold": 25.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_11"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_12"
-                },
-                "threshold": 27.5
+              "threshold": 26.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_12"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_13"
-                },
-                "threshold": 28.5
+              "threshold": 27.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_13"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_14"
-                },
-                "threshold": 29.5
+              "threshold": 28.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_14"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_15"
-                },
-                "threshold": 30.5
+              "threshold": 29.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_15"
               },
-              {
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/compass_16"
-                },
-                "threshold": 31.5
-              }
-            ],
-            "property": "minecraft:compass",
-            "scale": 32,
-            "target": "spawn"
-          },
-          "when": "minecraft:overworld"
-        }
-      ],
-      "fallback": {
+              "threshold": 30.5
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/compass_16"
+              },
+              "threshold": 31.5
+            }
+          ],
+          "property": "minecraft:compass",
+          "scale": 32,
+          "target": "none"
+        },
+        "property": "minecraft:context_dimension"
+      },
+      "on_true": {
         "type": "minecraft:range_dispatch",
         "entries": [
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_16"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 0
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_17"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 0.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_18"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 1.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_19"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 2.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_20"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 3.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_21"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 4.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_22"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 5.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_23"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 6.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_24"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 7.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_25"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 8.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_26"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 9.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_27"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 10.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_28"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 11.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_29"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 12.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_30"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 13.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_31"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 14.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_00"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 15.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_01"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 16.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_02"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 17.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_03"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 18.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_04"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 19.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_05"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 20.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_06"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 21.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_07"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 22.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_08"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 23.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_09"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 24.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_10"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 25.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_11"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 26.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_12"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 27.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_13"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 28.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_14"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 29.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_15"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 30.5
           },
           {
             "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
               "type": "minecraft:model",
               "model": "minecraft:item/compass_16"
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/misc_outlines/e_compass"
+            }
+          ]
             },
             "threshold": 31.5
           }
         ],
         "property": "minecraft:compass",
         "scale": 32,
-        "target": "none"
+        "target": "lodestone"
       },
-      "property": "minecraft:context_dimension"
+      "property": "minecraft:has_component"
     },
     "on_true": {
       "type": "minecraft:range_dispatch",

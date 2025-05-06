@@ -1,16 +1,16 @@
 {
-    "model": {
-      "type": "minecraft:composite",
-      "models": [
-        {
-          "type": "minecraft:model",
-          "model": "minecraft:item/enchanted_book",
-          "tints": []
-        },
-        {
-          "type": "minecraft:model",
-          "model": "minecraft:item/misc_outlines/enchanted_book"
-        }
-      ]
-    }
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/enchanted_book",
+        "tints": []
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/misc_outlines/enchanted_book"
+      }
+    ]
   }
+}

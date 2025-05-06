@@ -4,8 +4,7 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/experience_bottle",
-          "tints": []
+          "model": "minecraft:item/experience_bottle"
         },
         {
           "type": "minecraft:model",

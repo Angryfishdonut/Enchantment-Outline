@@ -4,8 +4,7 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/enchanted_golden_apple",
-          "tints": []
+          "model": "minecraft:item/enchanted_golden_apple"
         },
         {
           "type": "minecraft:model",

@@ -1,6 +1,7 @@
 {
   "model": {
     "type": "minecraft:condition",
+    "property": "minecraft:broken",
     "on_false": {
       "type": "minecraft:condition",
           "property": "minecraft:has_component",
@@ -21,8 +22,28 @@
         ]
       },
       "on_false": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/elytra"
+        "type": "minecraft:condition",
+            "property": "minecraft:has_component",
+            "component": "minecraft:enchantment_glint_override",
+            "ignore_default": true,
+        "on_true": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/elytra",
+              "tints": []
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_elytra"
+            }
+          ]
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/elytra"
+        }
       }
     },
     "on_true": {
@@ -45,10 +66,29 @@
         ]
       },
       "on_false": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/elytra_broken"
+        "type": "minecraft:condition",
+            "property": "minecraft:has_component",
+            "component": "minecraft:enchantment_glint_override",
+            "ignore_default": true,
+        "on_true": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/elytra_broken",
+              "tints": []
+            },
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_elytra_broken"
+            }
+          ]
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/elytra_broken"
+        }
       }
-    },
-    "property": "minecraft:broken"
+    }
   }
 }
