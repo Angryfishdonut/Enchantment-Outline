@@ -1,6 +1,6 @@
 {
-    condition: "EnchantmentOutline.armor.on",
+    condition: "EnchantmentOutline.armor.off",
     fallbacks: [
-      "assets/minecraft/optifine/cem/off/no_leggings.properties"
+      "assets/minecraft/optifine/cem/on/yes_leggings.properties"
     ]
 }

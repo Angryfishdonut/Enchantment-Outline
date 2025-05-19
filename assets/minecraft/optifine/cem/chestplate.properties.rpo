@@ -1,6 +1,6 @@
 {
-    condition: "EnchantmentOutline.armor.on",
+    condition: "EnchantmentOutline.armor.off",
     fallbacks: [
-      "assets/minecraft/optifine/cem/off/no_chestplate.properties"
+      "assets/minecraft/optifine/cem/on/yes_chestplate.properties"
     ]
 }
