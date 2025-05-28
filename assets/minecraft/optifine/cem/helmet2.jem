@@ -16,7 +16,7 @@
 					"id": "head_outline",
 					"invertAxis": "xy",
 					"translate": [0, 0, 0],
-					"texture": "e_armor_outline.png",
+					"texture": "helmet_outline.png",
 					"textureSize": [256, 128],
 					"submodels": [
 						{
@@ -93,11 +93,11 @@
 					"id": "outer_head_outline",
 					"invertAxis": "xy",
 					"translate": [0, 0, 0],
-					"texture": "e_armor_outline.png",
+					"texture": "helmet_outline.png",
 					"textureSize": [256, 128],
 					"submodels": [
 						{
-							"id": "outer_north",
+							"id": "outer_north1",
 							"invertAxis": "xy",
 							"translate": [0, 0, 0],
 							"boxes": [
@@ -114,7 +114,7 @@
 							]
 						},
 						{
-							"id": "outer_south",
+							"id": "outer_south1",
 							"invertAxis": "xy",
 							"translate": [0, 0, 0],
 							"boxes": [
@@ -131,7 +131,7 @@
 							]
 						},
 						{
-							"id": "outer_east",
+							"id": "outer_east1",
 							"invertAxis": "xy",
 							"translate": [0, 0, 0],
 							"boxes": [
@@ -148,7 +148,7 @@
 							]
 						},
 						{
-							"id": "outer_west",
+							"id": "outer_west1",
 							"invertAxis": "xy",
 							"translate": [0, 0, 0],
 							"boxes": [
@@ -165,7 +165,7 @@
 							]
 						},
 						{
-							"id": "outer_up",
+							"id": "outer_up1",
 							"invertAxis": "xy",
 							"translate": [0, 0, 0],
 							"boxes": [
@@ -186,17 +186,41 @@
 			],
 			"animations": [
 				{
-					"var.fuckinidk": "atan2(-(player_pos_x-pos_x),player_pos_z-pos_z)-(rot_y+pi)",
-					"var.fuckinidk2": "0.2",
-					"north.visible": "if(cos(var.fuckinidk)>=var.fuckinidk2, false, true)",
-					"south.visible": "if(cos(var.fuckinidk)>=var.fuckinidk2, true, false)",
-					"east.visible": "if(sin(var.fuckinidk)>=var.fuckinidk2, false, true)",
-					"west.visible": "if(sin(var.fuckinidk)>=var.fuckinidk2, true, false)",
-					"outer_north.visible": "if(cos(var.fuckinidk)>=var.fuckinidk2, true, false)",
-					"outer_south.visible": "if(cos(var.fuckinidk)>=var.fuckinidk2, false, true)",
-					"outer_east.visible": "if(sin(var.fuckinidk)>=var.fuckinidk2, true, false)",
-					"outer_west.visible": "if(sin(var.fuckinidk)>=var.fuckinidk2, false, true)",
-					"outer_up.visible": "if(player_pos_y-pos_y>=0.4, false, true)"
+					"var.fallflying2": "if(nbt(FallFlying,raw:1b),1,-1)",
+					"var.is_player": "if(distance < 0.2, 1, 0)",
+					"var.show_glint": "if(var.is_player > 0, 0, if(var.fallflying2 > 0, 0, 1))",
+					"outer_head_outline.visible": "var.show_glint > 0",
+					"head_outline.visible": "var.show_glint > 0",
+					"var.dx": "player_pos_x - pos_x",
+					"var.dy": "-(player_pos_y-0.25 - pos_y)",
+					"var.dz": "player_pos_z - pos_z",
+					"var.rot_y_total": "rot_y + head.ry + var.player_body_ry",
+					"var.cosy": "cos(var.rot_y_total)",
+					"var.siny": "sin(var.rot_y_total)",
+					"var.local_x1": "var.dx * var.cosy + var.dz * var.siny",
+					"var.local_z1": "-var.dx * var.siny + var.dz * var.cosy",
+					"var.local_y1": "var.dy",
+					"var.rot_x_total": "(-head.rx-var.player_body_rx)+pi",
+					"var.cosx": "cos(var.rot_x_total)",
+					"var.sinx": "sin(var.rot_x_total)",
+					"var.local_y2": "var.local_y1 * var.cosx + var.local_z1 * var.sinx",
+					"var.local_z2": "-var.local_y1 * var.sinx + var.local_z1 * var.cosx",
+					"var.local_x2": "var.local_x1",
+					"var.top_face_visible": "if(var.local_y2 < 0, 1 ,0)",
+					"var.bottom_face_visible": "if(var.local_y2 > 0, 1 ,0)",
+					"var.west_face_visible": "if(var.local_x2 < 0, 1 ,0)",
+					"var.east_face_visible": "if(var.local_x2 > 0, 1 ,0)",
+					"var.south_face_visible": "if(var.local_z2 < 0, 1 ,0)",
+					"var.north_face_visible": "if(var.local_z2 > 0,1,0)",
+					"outer_north1.visible": "var.north_face_visible > 0",
+					"outer_south1.visible": "var.south_face_visible > 0",
+					"outer_east1.visible": "var.east_face_visible > 0",
+					"outer_west1.visible": "var.west_face_visible > 0",
+					"outer_up1.visible": "var.top_face_visible > 0",
+					"north.visible": "var.south_face_visible > 0",
+					"south.visible": "var.north_face_visible > 0",
+					"east.visible": "var.west_face_visible > 0",
+					"west.visible": "var.east_face_visible > 0"
 				}
 			]
 		},
