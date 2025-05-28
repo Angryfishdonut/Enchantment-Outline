@@ -1,0 +1,6 @@
+{
+    condition: "EnchantmentOutline.Compatibility.XPBottles.Vanilla",
+    fallbacks: [
+      "assets/minecraft/items/experience_bottle_splash.json"
+    ]
+}

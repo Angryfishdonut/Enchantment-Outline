@@ -8,7 +8,9 @@
             Compatibility : {
                     diminishingTools: ["off", "on"],
                     Mace: ["Vanilla", "Vt3d"],
-                    Shields: ["Vanilla", "VtLower"]
+                    Shields: ["Vanilla", "VtLower"],
+                    XPBottles: ["Vanilla", "VtSplash"],
+                    GoldenHelmet: ["Vanilla", "VtCrown"]
                     }
     }
 }

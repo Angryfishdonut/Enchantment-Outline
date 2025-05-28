@@ -1,0 +1,7 @@
+{
+    "parent": "item/generic_axe",
+    "textures": {
+        "axe": "item/netherite_axe",
+		"particle": "item/netherite_axe"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/generic_pickaxe",
+    "textures": {
+        "pickaxe": "item/iron_pickaxe",
+		"particle": "item/iron_pickaxe"
+    }
+}

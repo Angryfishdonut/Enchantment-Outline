@@ -1,0 +1,7 @@
+{
+    "parent": "item/generic_axe",
+    "textures": {
+        "axe": "item/golden_axe",
+		"particle": "item/golden_axe"
+    }
+}

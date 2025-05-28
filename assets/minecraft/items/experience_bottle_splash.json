@@ -1,0 +1,15 @@
+{
+    "model": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/experience_bottle"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/misc_outlines/experience_bottle_splash"
+        }
+      ]
+    }
+  }
