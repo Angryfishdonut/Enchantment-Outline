@@ -1,4 +1,5 @@
 {
+    "parent": "item/generated",
 	"credit": "Created by Stridey",
 	"textures": {
 		"particle": "item/bow",

@@ -1,4 +1,5 @@
 {
+    "parent": "item/generated",
 	"credit": "Made with Blockbench",
 	"gui_light": "front",
 	"textures": {
