@@ -7,10 +7,11 @@
             armor: ["off", "on"],
             Compatibility : {
                     diminishingTools: ["off", "on"],
-                    Mace: ["Vanilla", "Vt3d"],
+                    Mace: ["Vanilla", "Vt3d", "rodgerRealisticMace3D"],
                     Shields: ["Vanilla", "VtLower"],
                     XPBottles: ["Vanilla", "VtSplash"],
-                    GoldenHelmet: ["Vanilla", "VtCrown"]
+                    GoldenHelmet: ["Vanilla", "VtCrown"],
+                    Food: ["Vanilla", "Fresh"]
                     }
     }
 }
