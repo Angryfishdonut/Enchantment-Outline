@@ -2,8 +2,7 @@
     "parent": "item/generated",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "item/enchanted_tool_overlays/crossbow_enchantment_outline",
-		"particle": "item/crossbow_firework"
+		"1": "item/enchanted_tool_overlays/enchantment_outline"
 	},
 	"elements": [
 		{
