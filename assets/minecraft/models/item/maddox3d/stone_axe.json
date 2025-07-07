@@ -1,0 +1,168 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "item/enchanted_tool_overlays/enchantment_outline",
+		"particle": "item/stone_axe"
+	},
+	"elements": [
+		{
+			"name": "head2",
+			"from": [10.9, 10.4, 8.6],
+			"to": [14.1, 12.9, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 13.4, 8.6]},
+			"faces": {
+				"north": {"uv": [8, 2.5, 11, 5], "texture": "#1"},
+				"east": {"uv": [8, 12.5, 9, 15], "texture": "#1"},
+				"south": {"uv": [8, 7.5, 11, 10], "texture": "#1"},
+				"west": {"uv": [9, 12.5, 10, 15], "texture": "#1"},
+				"down": {"uv": [15, 10, 12, 11], "texture": "#1"}
+			}
+		},
+		{
+			"name": "head3",
+			"from": [10.9, 12.9, 8.6],
+			"to": [14.1, 15.1, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 13.5, 8.6]},
+			"faces": {
+				"north": {"uv": [8, 0.5, 11, 2.5], "texture": "#1"},
+				"east": {"uv": [8, 10.5, 9, 12.5], "texture": "#1"},
+				"south": {"uv": [8, 5.5, 11, 7.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "head3",
+			"from": [10.9, 15.1, 8.6],
+			"to": [14.1, 15.6, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 13.6, 8.6]},
+			"faces": {
+				"north": {"uv": [8, 0, 11, 0.5], "texture": "#1"},
+				"east": {"uv": [8, 10, 9, 10.5], "texture": "#1"},
+				"south": {"uv": [8, 5, 11, 5.5], "texture": "#1"},
+				"west": {"uv": [9, 10, 10, 10.5], "texture": "#1"},
+				"up": {"uv": [13, 13, 10, 12], "texture": "#1"}
+			}
+		},
+		{
+			"name": "head3",
+			"from": [9.1, 12.9, 8.6],
+			"to": [10.9, 15.1, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 13, 8.6]},
+			"faces": {
+				"north": {"uv": [11, 2, 13, 4], "texture": "#1"},
+				"south": {"uv": [11, 4, 13, 6], "texture": "#1"},
+				"up": {"uv": [14, 12, 12, 11], "texture": "#1"},
+				"down": {"uv": [15, 4, 13, 5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "head4",
+			"from": [4.9, 12.9, 8.6],
+			"to": [6.9, 14.1, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 13, 8.6]},
+			"faces": {
+				"north": {"uv": [11, 7, 13, 8], "texture": "#1"},
+				"south": {"uv": [11, 9, 13, 10], "texture": "#1"},
+				"down": {"uv": [12, 13, 10, 14], "texture": "#1"}
+			}
+		},
+		{
+			"name": "head5",
+			"from": [4.9, 14.1, 8.6],
+			"to": [6.9, 15.1, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 13, 8.6]},
+			"faces": {
+				"north": {"uv": [11, 6, 13, 7], "texture": "#1"},
+				"south": {"uv": [11, 8, 13, 9], "texture": "#1"},
+				"west": {"uv": [13, 7, 14, 8], "texture": "#1"},
+				"up": {"uv": [15, 10, 13, 9], "texture": "#1"}
+			}
+		},
+		{
+			"name": "head5",
+			"from": [3.9, 12.9, 8.6],
+			"to": [4.9, 14.1, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 14, 8.6]},
+			"faces": {
+				"north": {"uv": [12, 13, 13, 14], "texture": "#1"},
+				"south": {"uv": [13, 13, 14, 14], "texture": "#1"},
+				"west": {"uv": [14, 0, 15, 1], "texture": "#1"},
+				"up": {"uv": [15, 2, 14, 1], "texture": "#1"},
+				"down": {"uv": [15, 2, 14, 3], "texture": "#1"}
+			}
+		},
+		{
+			"name": "stick",
+			"from": [6.9, -0.1, 9.1],
+			"to": [9.1, 16.1, 6.9],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, 12, 10.1]},
+			"faces": {
+				"north": {"uv": [0, 1, 2, 16], "texture": "#1"},
+				"east": {"uv": [2, 0, 4, 16], "texture": "#1"},
+				"south": {"uv": [4, 0, 6, 16], "texture": "#1"},
+				"west": {"uv": [6, 0, 8, 16], "texture": "#1"},
+				"up": {"uv": [12, 12, 10, 10], "texture": "#1"},
+				"down": {"uv": [13, 0, 11, 2], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-5, 90, 0],
+			"translation": [0, 2.75, 1],
+			"scale": [0.999, 0.999, 0.999]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-5, -90, 0],
+			"translation": [0, 2.75, 1],
+			"scale": [0.999, 0.999, 0.999]
+		},
+		"firstperson_righthand": {
+			"rotation": [10, 90, 0],
+			"translation": [-0.5, 4, 2],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_lefthand": {
+			"rotation": [10, -90, 0],
+			"translation": [-0.5, 4, 2],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"ground": {
+			"rotation": [0, 0, 25],
+			"translation": [0, 5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-180, 0, -135],
+			"translation": [-1.5, -2.5, -1],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [-180, -45, 135],
+			"translation": [12.75, 5, -12.75],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [-180, -180, -135],
+			"translation": [0.25, -1.75, -1.25],
+			"scale": [1.01, 1.01, 1.01]
+		}
+	},
+	"groups": [
+		{
+			"name": "stone_axe",
+			"origin": [7.5, 0, 7.25],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
+		}
+	]
+}

@@ -1,0 +1,168 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "item/enchanted_tool_overlays/enchantment_outline",
+		"particle": "item/wooden_axe"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [10.9, 10.4, 8.6],
+			"to": [13.1, 13.6, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.25, 9.5, 9.1]},
+			"faces": {
+				"north": {"uv": [8, 1, 10, 6], "texture": "#1"},
+				"east": {"uv": [10, 10, 11, 15], "texture": "#1"},
+				"south": {"uv": [8, 6, 10, 11], "texture": "#1"}
+			}
+		},
+		{
+			"name": "head",
+			"from": [10.9, 13.6, 8.6],
+			"to": [13.1, 14.1, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.25, 9.6, 9.1]},
+			"faces": {
+				"north": {"uv": [8, 1, 10, 6], "texture": "#1"},
+				"east": {"uv": [10, 10, 11, 15], "texture": "#1"},
+				"south": {"uv": [8, 6, 10, 11], "texture": "#1"},
+				"west": {"uv": [11, 10, 12, 15], "texture": "#1"},
+				"up": {"uv": [15, 9, 13, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "head",
+			"from": [10.9, 8.9, 8.6],
+			"to": [13.1, 10.4, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.25, 9.4, 9.1]},
+			"faces": {
+				"north": {"uv": [8, 1, 10, 6], "texture": "#1"},
+				"east": {"uv": [10, 10, 11, 15], "texture": "#1"},
+				"south": {"uv": [8, 6, 10, 11], "texture": "#1"},
+				"west": {"uv": [11, 10, 12, 15], "texture": "#1"},
+				"down": {"uv": [10, 14, 8, 15], "texture": "#1"}
+			}
+		},
+		{
+			"name": "head3",
+			"from": [9.1, 10.4, 8.6],
+			"to": [10.9, 13.6, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.25, 9.5, 9.1]},
+			"faces": {
+				"north": {"uv": [10, 1, 12, 4], "texture": "#1"},
+				"south": {"uv": [10, 4, 12, 7], "texture": "#1"},
+				"up": {"uv": [15, 10, 13, 9], "texture": "#1"},
+				"down": {"uv": [15, 10, 13, 11], "texture": "#1"}
+			}
+		},
+		{
+			"name": "head4",
+			"from": [5.9, 10.4, 9.1],
+			"to": [6.9, 13.6, 6.9],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.4, 12, 10.1]},
+			"faces": {
+				"north": {"uv": [12, 11, 13, 14], "texture": "#1"},
+				"south": {"uv": [13, 5, 14, 8], "texture": "#1"},
+				"west": {"uv": [8, 11, 10, 14], "texture": "#1"},
+				"up": {"uv": [14, 13, 13, 11], "texture": "#1"},
+				"down": {"uv": [13, 14, 12, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "stick",
+			"from": [6.9, -0.1, 9.1],
+			"to": [9.1, 10.4, 6.9],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.25, 9.4, 10.1]},
+			"faces": {
+				"north": {"uv": [0, 1, 2, 15], "texture": "#1"},
+				"east": {"uv": [2, 1, 4, 15], "texture": "#1"},
+				"south": {"uv": [4, 1, 6, 15], "texture": "#1"},
+				"west": {"uv": [6, 1, 8, 15], "texture": "#1"},
+				"down": {"uv": [14, 3, 12, 5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "stick",
+			"from": [6.9, 13.6, 9.1],
+			"to": [9.1, 14.1, 6.9],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.25, 9.6, 10.1]},
+			"faces": {
+				"north": {"uv": [0, 1, 2, 15], "texture": "#1"},
+				"east": {"uv": [2, 1, 4, 15], "texture": "#1"},
+				"south": {"uv": [4, 1, 6, 15], "texture": "#1"},
+				"west": {"uv": [6, 1, 8, 15], "texture": "#1"},
+				"up": {"uv": [14, 3, 12, 1], "texture": "#1"}
+			}
+		},
+		{
+			"name": "stick",
+			"from": [6.9, 10.4, 9.1],
+			"to": [9.1, 13.6, 6.9],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.25, 9.5, 10.1]},
+			"faces": {
+				"north": {"uv": [0, 1, 2, 15], "texture": "#1"},
+				"east": {"uv": [2, 1, 4, 15], "texture": "#1"},
+				"south": {"uv": [4, 1, 6, 15], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-5, 90, 0],
+			"translation": [0, 3, 0.75],
+			"scale": [0.999, 0.999, 0.999]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-5, -90, 0],
+			"translation": [0, 3, 0.75],
+			"scale": [0.999, 0.999, 0.999]
+		},
+		"firstperson_righthand": {
+			"rotation": [10, 90, 0],
+			"translation": [0.5, 4.25, 2],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_lefthand": {
+			"rotation": [10, -90, 0],
+			"translation": [0.5, 4.25, 2],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"ground": {
+			"rotation": [0, 0, 25],
+			"translation": [0, 5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-180, 0, -135],
+			"translation": [-1.5, -2.5, -1],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [-180, 0, 145],
+			"translation": [14, 4.5, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [-180, -180, -135],
+			"translation": [-0.5, -0.75, -1.5],
+			"scale": [1.16, 1.16, 1.16]
+		}
+	},
+	"groups": [
+		{
+			"name": "wooden_axe",
+			"origin": [7, -1, 7],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
+		}
+	]
+}

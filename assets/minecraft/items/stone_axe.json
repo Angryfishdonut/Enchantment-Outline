@@ -13,7 +13,7 @@
         },
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/stone_axe"
+          "model": "minecraft:item/defaults/stone_axe"
         }
       ]
     },
@@ -31,13 +31,13 @@
           },
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/stone_axe"
+            "model": "minecraft:item/defaults/stone_axe"
           }
         ]
       },
       "on_false": {
         "type": "minecraft:model",
-        "model": "minecraft:item/stone_axe"
+        "model": "minecraft:item/defaults/stone_axe"
       }
     }
   }

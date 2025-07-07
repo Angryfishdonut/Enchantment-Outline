@@ -13,7 +13,7 @@
         },
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/diamond_axe"
+          "model": "minecraft:item/defaults/diamond_axe"
         }
       ]
     },
@@ -31,13 +31,13 @@
           },
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/diamond_axe"
+            "model": "minecraft:item/defaults/diamond_axe"
           }
         ]
       },
       "on_false": {
         "type": "minecraft:model",
-        "model": "minecraft:item/diamond_axe"
+        "model": "minecraft:item/defaults/diamond_axe"
       }
     }
   }

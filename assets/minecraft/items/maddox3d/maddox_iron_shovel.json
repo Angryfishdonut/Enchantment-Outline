@@ -1,0 +1,44 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+        "property": "minecraft:has_component",
+        "component": "minecraft:enchantments",
+        "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/maddox3d/iron_shovel"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/iron_shovel"
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+          "property": "minecraft:has_component",
+          "component": "minecraft:enchantment_glint_override",
+          "ignore_default": true,
+      "on_true": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/maddox3d/iron_shovel"
+          },
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/iron_shovel"
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/iron_shovel"
+      }
+    }
+  }
+}

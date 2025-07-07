@@ -1,0 +1,154 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "item/enchanted_tool_overlays/enchantment_outline",
+		"particle": "item/wooden_sword"
+	},
+	"elements": [
+		{
+			"name": "blade",
+			"from": [8.6, 7.1, 8.6],
+			"to": [9.6, 15.1, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.6, 9.1]},
+			"faces": {
+				"north": {"uv": [0, 1, 3, 9], "texture": "#1"},
+				"east": {"uv": [8, 8, 9, 16], "texture": "#1"},
+				"south": {"uv": [3, 1, 6, 9], "texture": "#1"},
+				"up": {"uv": [14, 5, 11, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "blade",
+			"from": [6.4, 7.1, 8.6],
+			"to": [8.6, 15.1, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.6, 9.1]},
+			"faces": {
+				"north": {"uv": [0, 1, 3, 9], "texture": "#1"},
+				"south": {"uv": [3, 1, 6, 9], "texture": "#1"},
+				"west": {"uv": [9, 8, 10, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "blade_tip3",
+			"from": [6.4, 15.1, 8.6],
+			"to": [7.6, 16.1, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.52216, 9.85, 9.095]},
+			"faces": {
+				"north": {"uv": [11, 6, 13, 7], "texture": "#1"},
+				"south": {"uv": [11, 7, 13, 8], "texture": "#1"},
+				"west": {"uv": [12, 10, 13, 11], "texture": "#1"}
+			}
+		},
+		{
+			"name": "blade_tip4",
+			"from": [7.6, 15.1, 8.6],
+			"to": [8.6, 16.1, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.52216, 9.85, 9.095]},
+			"faces": {
+				"north": {"uv": [11, 6, 13, 7], "texture": "#1"},
+				"east": {"uv": [10, 12, 11, 13], "texture": "#1"},
+				"south": {"uv": [11, 7, 13, 8], "texture": "#1"},
+				"up": {"uv": [14, 9, 12, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "blade_tip4",
+			"from": [6.4, 16.1, 8.6],
+			"to": [7.6, 17.1, 7.4],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.52216, 9.85, 9.095]},
+			"faces": {
+				"north": {"uv": [11, 12, 12, 13], "texture": "#1"},
+				"east": {"uv": [12, 11, 13, 12], "texture": "#1"},
+				"south": {"uv": [12, 12, 13, 13], "texture": "#1"},
+				"west": {"uv": [0, 13, 1, 14], "texture": "#1"},
+				"up": {"uv": [14, 1, 13, 0], "texture": "#1"}
+			}
+		},
+		{
+			"name": "guard",
+			"from": [5.4, 4.9, 9.1],
+			"to": [10.6, 7.1, 6.9],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.5, 10.1]},
+			"faces": {
+				"north": {"uv": [6, 0, 11, 2], "texture": "#1"},
+				"east": {"uv": [10, 8, 12, 10], "texture": "#1"},
+				"south": {"uv": [6, 2, 11, 4], "texture": "#1"},
+				"west": {"uv": [10, 10, 12, 12], "texture": "#1"},
+				"up": {"uv": [11, 6, 6, 4], "texture": "#1"},
+				"down": {"uv": [11, 6, 6, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "handle",
+			"from": [6.9, -0.1, 8.85],
+			"to": [9.1, 4.9, 7.15],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.4, 9.6]},
+			"faces": {
+				"north": {"uv": [0, 8, 2, 13], "texture": "#1"},
+				"east": {"uv": [2, 8, 4, 13], "texture": "#1"},
+				"south": {"uv": [4, 8, 6, 13], "texture": "#1"},
+				"west": {"uv": [6, 8, 8, 13], "texture": "#1"},
+				"down": {"uv": [13, 2, 11, 4], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-5, 90, 0],
+			"translation": [0, 3.25, 0.75],
+			"scale": [0.999, 0.999, 0.999]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-5, -90, 0],
+			"translation": [0, 3.25, 0.75],
+			"scale": [0.999, 0.999, 0.999]
+		},
+		"firstperson_righthand": {
+			"rotation": [10, 90, 0],
+			"translation": [0.75, 3.75, 2],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_lefthand": {
+			"rotation": [10, -90, 0],
+			"translation": [0.75, 3.75, 2],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"ground": {
+			"rotation": [0, 0, 25],
+			"translation": [0, 5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-180, -22, -175.5],
+			"translation": [-0.25, -0.25, -1],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"head": {
+			"rotation": [15, 35, 150],
+			"translation": [0, 13, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [-180, -180, -135],
+			"translation": [0.75, 0.25, -1],
+			"scale": [1.1, 1.1, 1.1]
+		}
+	},
+	"groups": [
+		{
+			"name": "wooden_sword",
+			"origin": [8.5, 2.4, 6.5],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6]
+		}
+	]
+}

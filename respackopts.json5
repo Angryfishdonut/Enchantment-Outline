@@ -6,7 +6,7 @@
             glintColor: ["purple", "blue", "green", "yellow", "orange", "red", "white", "rainbow", "black"],
             armor: ["off", "on"],
             compatibility : {
-                    tools: ["vanilla", "vtDiminishing", "alsMobWeapons"],
+                    tools: ["vanilla", "vtDiminishing", "alsMobWeapons", "maddox3d"],
                     mace: ["vanilla", "vt3d", "rodgerRealisticMace3D"],
                     shields: ["vanilla", "vtLower", "freshAnimationsPlayer"],
                     xPBottles: ["vanilla", "vtSplash"],
