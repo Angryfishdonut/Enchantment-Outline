@@ -1,4 +1,3 @@
 {
-    condition: "Compatibility.Shields.VtLower"
-    ]
+    condition: "enchantmentOutline.compatibility.shields.vtLower"
 }

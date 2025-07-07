@@ -1,5 +1,5 @@
 {
-    condition: "EnchantmentOutline.Compatibility.GoldenHelmet.Vanilla",
+    condition: "enchantmentOutline.compatibility.goldenHelmet.vanilla",
     fallbacks: [
       "assets/minecraft/items/golden_helmet_vtcrown.json"
     ]

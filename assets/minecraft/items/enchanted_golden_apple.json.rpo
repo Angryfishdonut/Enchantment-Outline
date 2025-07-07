@@ -1,6 +1,7 @@
 {
-    condition: "EnchantmentOutline.Compatibility.Food.Vanilla",
+    condition: "enchantmentOutline.compatibility.food.vanilla",
     fallbacks: [
-      "assets/minecraft/items/enchanted_golden_apple_fresh.json"
+      "assets/minecraft/items/enchanted_golden_apple_fresh.json",
+      "assets/minecraft/items/enchanted_golden_apple_theones.json"
     ]
 }

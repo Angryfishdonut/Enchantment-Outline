@@ -1,6 +1,18 @@
 ﻿{
   "pack": {
-    "pack_format": 55,
-    "description": "definitely didn't steal this idea from actions & stuff"
+    "description": "definitely didn't steal this idea from actions & stuff",
+    "pack_format": 71,
+    "supported_formats": {
+      "min_inclusive": 46,
+      "max_inclusive": 71
+    }
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "1.21.5",
+        "formats": {"min_inclusive": 46, "max_inclusive":55}
+      }
+    ]
   }
 }

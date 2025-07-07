@@ -1,5 +1,5 @@
 {
-    condition: "EnchantmentOutline.Compatibility.diminishingTools.off",
+    condition: "enchantmentOutline.compatibility.tools.vanilla | enchantmentOutline.compatibility.tools.alsMobWeapons",
     fallbacks: [
       "assets/minecraft/items/diminishing_items/diminishing_netherite_pickaxe.json"
     ]

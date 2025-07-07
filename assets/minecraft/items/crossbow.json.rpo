@@ -1,0 +1,6 @@
+{
+    condition: "enchantmentOutline.compatibility.tools.vanilla | enchantmentOutline.compatibility.tools.vtDiminishing",
+    fallbacks: [
+      "assets/minecraft/items/als_mob_weapons/als_crossbow.json"
+    ]
+}

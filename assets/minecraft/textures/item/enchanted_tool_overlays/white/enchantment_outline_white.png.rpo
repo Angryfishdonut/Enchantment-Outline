@@ -1,3 +1,3 @@
 {
-    condition: "EnchantmentOutline.glintColor.white"
+    condition: "enchantmentOutline.glintColor.white"
 }

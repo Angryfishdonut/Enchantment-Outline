@@ -1,0 +1,6 @@
+{
+    condition: "enchantmentOutline.compatibility.books.vanilla",
+    fallbacks: [
+      "assets/minecraft/items/enchanted_book_ebe.json"
+    ]
+}

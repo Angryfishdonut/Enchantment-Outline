@@ -1,6 +1,7 @@
 {
-    condition: "EnchantmentOutline.Compatibility.diminishingTools.off",
+    condition: "enchantmentOutline.compatibility.tools.vanilla",
     fallbacks: [
-      "assets/minecraft/items/diminishing_items/diminishing_golden_sword.json"
+      "assets/minecraft/items/diminishing_items/diminishing_golden_sword.json",
+      "assets/minecraft/items/als_mob_weapons/als_golden_sword.json"
     ]
 }

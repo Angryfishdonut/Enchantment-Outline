@@ -1,0 +1,145 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+    "type": "minecraft:condition",
+        "property": "minecraft:has_component",
+        "component": "minecraft:enchantments",
+        "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/als_mob_weapons/soul_iron_sword"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/soul_iron_sword"
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+          "property": "minecraft:has_component",
+          "component": "minecraft:enchantment_glint_override",
+          "ignore_default": true,
+      "on_true": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/als_mob_weapons/soul_iron_sword"
+          },
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/soul_iron_sword"
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/soul_iron_sword"
+      }
+    }
+  },
+        "when": [
+          "minecraft:husk",
+          "minecraft:drowned"
+        ]
+      },
+      {
+        "model": {
+    "type": "minecraft:condition",
+        "property": "minecraft:has_component",
+        "component": "minecraft:enchantments",
+        "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/als_mob_weapons/dagger_iron_sword"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/dagger_iron_sword"
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+          "property": "minecraft:has_component",
+          "component": "minecraft:enchantment_glint_override",
+          "ignore_default": true,
+      "on_true": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/als_mob_weapons/dagger_iron_sword"
+          },
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/dagger_iron_sword"
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/dagger_iron_sword"
+      }
+    }
+  },
+        "when": [
+          "minecraft:vex"
+        ]
+      }
+    ],
+    "fallback": {
+    "type": "minecraft:condition",
+        "property": "minecraft:has_component",
+        "component": "minecraft:enchantments",
+        "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/enchanted_sword"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/iron_sword"
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+          "property": "minecraft:has_component",
+          "component": "minecraft:enchantment_glint_override",
+          "ignore_default": true,
+      "on_true": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/enchanted_sword"
+          },
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/iron_sword"
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/iron_sword"
+      }
+    }
+  },
+    "property": "minecraft:context_entity_type"
+  }
+}

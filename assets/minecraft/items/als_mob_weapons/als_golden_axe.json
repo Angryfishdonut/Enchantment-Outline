@@ -1,0 +1,99 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+    "type": "minecraft:condition",
+        "property": "minecraft:has_component",
+        "component": "minecraft:enchantments",
+        "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/als_mob_weapons/firebrand_golden_axe"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/firebrand_golden_axe"
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+          "property": "minecraft:has_component",
+          "component": "minecraft:enchantment_glint_override",
+          "ignore_default": true,
+      "on_true": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/als_mob_weapons/firebrand_golden_axe"
+          },
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/firebrand_golden_axe"
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/firebrand_golden_axe"
+      }
+    }
+  },
+        "when": [
+          "minecraft:piglin",
+          "minecraft:piglin_brute",
+          "minecraft:zombified_piglin"
+        ]
+      }
+    ],
+    "fallback": {
+    "type": "minecraft:condition",
+        "property": "minecraft:has_component",
+        "component": "minecraft:enchantments",
+        "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/enchanted_axe"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/golden_axe"
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+          "property": "minecraft:has_component",
+          "component": "minecraft:enchantment_glint_override",
+          "ignore_default": true,
+      "on_true": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/enchanted_axe"
+          },
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/golden_axe"
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/golden_axe"
+      }
+    }
+  },
+    "property": "minecraft:context_entity_type"
+  }
+}

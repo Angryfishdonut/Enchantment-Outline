@@ -1,17 +1,18 @@
 {
-    id: "EnchantmentOutline",
+    id: "enchantmentOutline",
     version: 13,
     capabilities: ["FileFilter", "DirFilter", "DirFilterAdditive"],
     conf: {
-            glintColor: ["purple", "blue", "green", "yellow", "orange", "red", "white", "rainbow"],
+            glintColor: ["purple", "blue", "green", "yellow", "orange", "red", "white", "rainbow", "black"],
             armor: ["off", "on"],
-            Compatibility : {
-                    diminishingTools: ["off", "on"],
-                    Mace: ["Vanilla", "Vt3d", "rodgerRealisticMace3D"],
-                    Shields: ["Vanilla", "VtLower"],
-                    XPBottles: ["Vanilla", "VtSplash"],
-                    GoldenHelmet: ["Vanilla", "VtCrown"],
-                    Food: ["Vanilla", "Fresh"]
+            compatibility : {
+                    tools: ["vanilla", "vtDiminishing", "alsMobWeapons"],
+                    mace: ["vanilla", "vt3d", "rodgerRealisticMace3D"],
+                    shields: ["vanilla", "vtLower", "freshAnimationsPlayer"],
+                    xPBottles: ["vanilla", "vtSplash"],
+                    goldenHelmet: ["vanilla", "vtCrown"],
+                    books: ["vanilla", "evenBetterEnchants"],
+                    food: ["vanilla", "fresh", "theones"]
                     }
     }
 }

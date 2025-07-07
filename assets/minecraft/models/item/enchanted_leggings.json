@@ -1,7 +1,8 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"glow": "item/enchanted_tool_overlays/enchantment_outline"
+		"glow": "item/enchanted_tool_overlays/enchantment_outline",
+		"particle": "item/enchanted_tool_overlays/enchantment_outline"
 	},
 	"elements": [
 		{

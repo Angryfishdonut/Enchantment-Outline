@@ -1,5 +1,5 @@
 {
-    condition: "EnchantmentOutline.glintColor.purple",
+    condition: "enchantmentOutline.glintColor.purple",
     fallbacks: [
       "assets/minecraft/textures/misc/blue/enchanted_glint_item_blue.png",
       "assets/minecraft/textures/misc/green/enchanted_glint_item_green.png",
