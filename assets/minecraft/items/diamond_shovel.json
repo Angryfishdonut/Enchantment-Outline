@@ -13,7 +13,7 @@
         },
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/diamond_shovel"
+          "model": "minecraft:item/defaults/diamond_shovel"
         }
       ]
     },
@@ -31,13 +31,13 @@
           },
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/diamond_shovel"
+            "model": "minecraft:item/defaults/diamond_shovel"
           }
         ]
       },
       "on_false": {
         "type": "minecraft:model",
-        "model": "minecraft:item/diamond_shovel"
+        "model": "minecraft:item/defaults/diamond_shovel"
       }
     }
   }

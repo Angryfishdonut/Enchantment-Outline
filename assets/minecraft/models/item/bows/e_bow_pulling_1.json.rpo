@@ -1,0 +1,6 @@
+{
+    condition: "enchantmentOutline.guiOutline.on",
+    fallbacks: [
+      "assets/minecraft/models/item/no_gui_outline/bows/e_bow_pulling_1.json"
+    ]
+}
