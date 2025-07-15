@@ -13,7 +13,7 @@
         },
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/iron_pickaxe"
+          "model": "minecraft:item/defaults/iron_pickaxe"
         }
       ]
     },
@@ -31,13 +31,13 @@
           },
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/iron_pickaxe"
+            "model": "minecraft:item/defaults/iron_pickaxe"
           }
         ]
       },
       "on_false": {
         "type": "minecraft:model",
-        "model": "minecraft:item/iron_pickaxe"
+        "model": "minecraft:item/defaults/iron_pickaxe"
       }
     }
   }

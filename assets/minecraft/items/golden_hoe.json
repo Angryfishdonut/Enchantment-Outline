@@ -13,7 +13,7 @@
         },
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/golden_hoe"
+          "model": "minecraft:item/defaults/golden_hoe"
         }
       ]
     },
@@ -31,13 +31,13 @@
           },
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_hoe"
+            "model": "minecraft:item/defaults/golden_hoe"
           }
         ]
       },
       "on_false": {
         "type": "minecraft:model",
-        "model": "minecraft:item/golden_hoe"
+        "model": "minecraft:item/defaults/golden_hoe"
       }
     }
   }

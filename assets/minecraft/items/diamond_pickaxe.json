@@ -13,7 +13,7 @@
         },
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/diamond_pickaxe"
+          "model": "minecraft:item/defaults/diamond_pickaxe"
         }
       ]
     },
@@ -31,13 +31,13 @@
           },
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/diamond_pickaxe"
+            "model": "minecraft:item/defaults/diamond_pickaxe"
           }
         ]
       },
       "on_false": {
         "type": "minecraft:model",
-        "model": "minecraft:item/diamond_pickaxe"
+        "model": "minecraft:item/defaults/diamond_pickaxe"
       }
     }
   }

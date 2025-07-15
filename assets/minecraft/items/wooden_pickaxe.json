@@ -13,7 +13,7 @@
         },
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/wooden_pickaxe"
+          "model": "minecraft:item/defaults/wooden_pickaxe"
         }
       ]
     },
@@ -31,13 +31,13 @@
           },
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/wooden_pickaxe"
+            "model": "minecraft:item/defaults/wooden_pickaxe"
           }
         ]
       },
       "on_false": {
         "type": "minecraft:model",
-        "model": "minecraft:item/wooden_pickaxe"
+        "model": "minecraft:item/defaults/wooden_pickaxe"
       }
     }
   }
