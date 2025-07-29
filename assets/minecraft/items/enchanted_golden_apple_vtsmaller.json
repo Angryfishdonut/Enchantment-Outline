@@ -1,0 +1,15 @@
+{
+    "model": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/misc_outlines/enchanted_golden_apple_vtsmaller"
+        }
+      ]
+    }
+  }

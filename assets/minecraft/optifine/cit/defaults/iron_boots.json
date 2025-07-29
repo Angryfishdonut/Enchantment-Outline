@@ -1,0 +1,7 @@
+{
+    "parent": "citparents/enchanted_boots",
+    "textures": {
+        "boots": "item/iron_boots",
+		"particle": "item/iron_boots"
+    }
+}

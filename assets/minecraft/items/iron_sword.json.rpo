@@ -1,8 +1,9 @@
 {
-    condition: "enchantmentOutline.compatibility.tools.vanilla",
+    condition: "enchantmentOutline.compatibility.tools.vanilla ",
     fallbacks: [
       "assets/minecraft/items/diminishing_items/diminishing_iron_sword.json",
       "assets/minecraft/items/als_mob_weapons/als_iron_sword.json",
-      "assets/minecraft/items/maddox3d/maddox_iron_sword.json"
+      "assets/minecraft/items/maddox3d/maddox_iron_sword.json",
+      "assets/minecraft/items/vtshortswords/iron_sword.json"
     ]
 }

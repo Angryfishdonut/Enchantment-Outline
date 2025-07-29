@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/template_skull",
+	"textures": {
+		"0": "item/enchanted_tool_overlays/enchantment_outline",
+		"particle": "item/enchanted_tool_overlays/enchantment_outline"
+	},
+	"elements": [
+		{
+			"from": [3.75, -0.25, 12.25],
+			"to": [12.25, 8.25, 3.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0.2, 147.5]},
+			"faces": {
+				"north": {"uv": [15, 15, 16, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [15, 15, 16, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [15, 15, 16, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [15, 15, 16, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [15, 15, 16, 16], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [15, 15, 16, 16], "texture": "#0", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 45, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, 3, 0]
+		},
+		"head": {
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 4, 0]
+		}
+	}
+}

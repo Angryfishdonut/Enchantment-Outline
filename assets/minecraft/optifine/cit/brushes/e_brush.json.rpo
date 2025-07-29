@@ -1,0 +1,6 @@
+{
+    condition: "enchantmentOutline.guiOutline.on",
+    fallbacks: [
+      "assets/minecraft/models/item/no_gui_outline/brushes/e_brush.json"
+    ]
+}

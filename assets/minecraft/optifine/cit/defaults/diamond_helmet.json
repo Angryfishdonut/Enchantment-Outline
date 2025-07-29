@@ -1,0 +1,7 @@
+{
+    "parent": "citparents/enchanted_helmet",
+    "textures": {
+        "helmet": "item/diamond_helmet",
+		"particle": "item/diamond_helmet"
+    }
+}

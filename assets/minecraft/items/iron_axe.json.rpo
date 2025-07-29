@@ -1,5 +1,5 @@
 {
-    condition: "enchantmentOutline.compatibility.tools.vanilla",
+    condition: "enchantmentOutline.compatibility.tools.vanilla | enchantmentOutline.compatibility.tools.vtSmallerUtilities",
     fallbacks: [
       "assets/minecraft/items/diminishing_items/diminishing_iron_axe.json",
       "assets/minecraft/items/als_mob_weapons/als_iron_axe.json",

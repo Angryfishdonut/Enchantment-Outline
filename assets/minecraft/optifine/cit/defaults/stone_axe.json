@@ -1,0 +1,7 @@
+{
+    "parent": "citparents/generic_axe",
+    "textures": {
+        "axe": "item/stone_axe",
+		"particle": "item/stone_axe"
+    }
+}

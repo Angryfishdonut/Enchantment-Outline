@@ -1,0 +1,7 @@
+{
+    "parent": "citparents/generic_sword",
+    "textures": {
+        "sword": "item/golden_sword",
+		"particle": "item/golden_sword"
+    }
+}

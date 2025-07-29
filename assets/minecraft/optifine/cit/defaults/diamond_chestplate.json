@@ -1,0 +1,7 @@
+{
+    "parent": "citparents/enchanted_chestplate",
+    "textures": {
+        "chestplate": "item/diamond_chestplate",
+		"particle": "item/diamond_chestplate"
+    }
+}

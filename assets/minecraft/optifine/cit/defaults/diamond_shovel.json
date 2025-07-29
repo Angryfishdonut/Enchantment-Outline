@@ -1,0 +1,7 @@
+{
+    "parent": "citparents/generic_shovel",
+    "textures": {
+        "shovel": "item/diamond_shovel",
+		"particle": "item/diamond_shovel"
+    }
+}

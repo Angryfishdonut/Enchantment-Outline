@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/enchanted_tool_overlays/enchantment_outline",
+		"particle": "item/enchanted_tool_overlays/enchantment_outline"
+	},
+	"elements": [
+		{
+			"from": [-0.25, -0.25, 16.25],
+			"to": [16.25, 16.25, -0.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.25, 0.2, 73.9]},
+			"faces": {
+				"north": {"uv": [15, 15, 16, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [15, 15, 16, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [15, 15, 16, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [15, 15, 16, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [15, 15, 16, 16], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [15, 15, 16, 16], "texture": "#0", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

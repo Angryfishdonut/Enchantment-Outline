@@ -7,13 +7,13 @@
             armor: ["off", "on"],
             guiOutline: ["on", "off"],
             compatibility : {
-                    tools: ["vanilla", "vtDiminishing", "alsMobWeapons", "maddox3d"],
+                    tools: ["vanilla", "vtDiminishing", "alsMobWeapons", "maddox3d", "vtShortSwords"],
                     mace: ["vanilla", "vt3d", "rodgerRealisticMace3D"],
                     shields: ["vanilla", "vtLower", "freshAnimationsPlayer"],
                     xPBottles: ["vanilla", "vtSplash"],
                     goldenHelmet: ["vanilla", "vtCrown"],
                     books: ["vanilla", "evenBetterEnchants"],
-                    food: ["vanilla", "fresh", "theones", ""]
+                    food: ["vanilla", "fresh", "theones", "vtSmallerUtilities"]
                     }
     }
 }

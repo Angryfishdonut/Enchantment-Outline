@@ -1,0 +1,6 @@
+{
+    condition: "enchantmentOutline.guiOutline.on",
+    fallbacks: [
+      "assets/minecraft/models/item/no_gui_outline/fishing_rods/enchanted_warped_fungus_on_a_stick.json"
+    ]
+}

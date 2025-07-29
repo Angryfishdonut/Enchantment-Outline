@@ -1,0 +1,7 @@
+{
+    "parent": "citparents/generic_pickaxe",
+    "textures": {
+        "pickaxe": "item/netherite_pickaxe",
+		"particle": "item/netherite_pickaxe"
+    }
+}

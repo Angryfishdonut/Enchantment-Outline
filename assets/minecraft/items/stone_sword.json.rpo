@@ -3,6 +3,7 @@
     fallbacks: [
       "assets/minecraft/items/diminishing_items/diminishing_stone_sword.json",
       "assets/minecraft/items/als_mob_weapons/als_stone_sword.json",
-      "assets/minecraft/items/maddox3d/maddox_stone_sword.json"
+      "assets/minecraft/items/maddox3d/maddox_stone_sword.json",
+      "assets/minecraft/items/vtshortswords/stone_sword.json"
     ]
 }

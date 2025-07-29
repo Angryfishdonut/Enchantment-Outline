@@ -1,0 +1,7 @@
+{
+    "parent": "citparents/generic_hoe",
+    "textures": {
+        "hoe": "item/iron_hoe",
+		"particle": "item/iron_hoe"
+    }
+}

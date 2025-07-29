@@ -1,0 +1,7 @@
+{
+    "parent": "citparents/enchanted_leggings",
+    "textures": {
+        "leggings": "item/golden_leggings",
+		"particle": "item/golden_leggings"
+    }
+}

@@ -1,5 +1,5 @@
 {
-    condition: "enchantmentOutline.compatibility.tools.vanilla | enchantmentOutline.compatibility.tools.alsMobWeapons",
+    condition: "enchantmentOutline.compatibility.tools.vanilla | enchantmentOutline.compatibility.tools.alsMobWeapons | enchantmentOutline.compatibility.tools.vtSmallerUtilities",
     fallbacks: [
       "assets/minecraft/items/diminishing_items/diminishing_stone_axe.json",
       "assets/minecraft/items/maddox3d/maddox_stone_axe.json"

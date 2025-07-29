@@ -3,15 +3,27 @@
     "description": "definitely didn't steal this idea from actions & stuff",
     "pack_format": 71,
     "supported_formats": {
-      "min_inclusive": 46,
-      "max_inclusive": 71
+      "min_inclusive": 0,
+      "max_inclusive": 99
     }
   },
   "overlays": {
     "entries": [
       {
+        "directory": "1.21",
+        "formats": {"min_inclusive": 0, "max_inclusive":34}
+      },
+      {
+        "directory": "1.21.4",
+        "formats": {"min_inclusive": 35, "max_inclusive":55}
+      },
+      {
         "directory": "1.21.5",
         "formats": {"min_inclusive": 46, "max_inclusive":55}
+      },
+      {
+        "directory": "1.21.6",
+        "formats": {"min_inclusive": 57, "max_inclusive":98}
       }
     ]
   }
