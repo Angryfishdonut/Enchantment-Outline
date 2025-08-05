@@ -1,29 +1,41 @@
 ﻿{
   "pack": {
     "description": "definitely didn't steal this idea from actions & stuff",
-    "pack_format": 71,
+    "pack_format": 81,
     "supported_formats": {
       "min_inclusive": 0,
-      "max_inclusive": 99
+      "max_inclusive": 81
     }
   },
   "overlays": {
     "entries": [
       {
         "directory": "1.21",
-        "formats": {"min_inclusive": 0, "max_inclusive":34}
+        "formats": {
+          "min_inclusive": 0,
+          "max_inclusive": 34
+        }
       },
       {
         "directory": "1.21.4",
-        "formats": {"min_inclusive": 35, "max_inclusive":55}
+        "formats": {
+          "min_inclusive": 35,
+          "max_inclusive": 45
+        }
       },
       {
         "directory": "1.21.5",
-        "formats": {"min_inclusive": 46, "max_inclusive":55}
+        "formats": {
+          "min_inclusive": 46,
+          "max_inclusive": 56
+        }
       },
       {
         "directory": "1.21.6",
-        "formats": {"min_inclusive": 57, "max_inclusive":98}
+        "formats": {
+          "min_inclusive": 57,
+          "max_inclusive": 81
+        }
       }
     ]
   }
