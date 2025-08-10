@@ -8,7 +8,7 @@
             guiOutline: ["on", "off"],
             compatibility : {
                     tools: ["vanilla", "vtDiminishing", "alsMobWeapons", "maddox3d", "vtShortSwords"],
-                    mace: ["vanilla", "vt3d", "rodgerRealisticMace3D"],
+                    mace: ["vanilla", "vt3d", "rodgerRealisticMace3D", "maceBut3D"],
                     shields: ["vanilla", "vtLower", "freshAnimationsPlayer"],
                     xPBottles: ["vanilla", "vtSplash"],
                     goldenHelmet: ["vanilla", "vtCrown"],
