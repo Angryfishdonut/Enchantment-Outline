@@ -1,0 +1,104 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+        "property": "minecraft:has_component",
+        "component": "minecraft:enchantments",
+        "ignore_default": true,
+    "on_true": {
+      "property": "minecraft:using_item",
+      "type": "minecraft:condition",
+      "on_false": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/shields/enchanted_shield_bs"
+          },
+          {
+            "type": "minecraft:special",
+            "model": {
+              "type": "minecraft:shield"
+            },
+            "base": "minecraft:item/shield"
+          }
+        ]
+      },
+      "on_true": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model": "minecraft:item/shields/enchanted_shield_blocking"
+          },
+          {
+            "type": "minecraft:special",
+            "model": {
+              "type": "minecraft:shield"
+            },
+            "base": "minecraft:item/shield_blocking"
+          }
+        ]
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+          "property": "minecraft:has_component",
+          "component": "minecraft:enchantment_glint_override",
+          "ignore_default": true,
+      "on_true": {
+        "property": "minecraft:using_item",
+        "type": "minecraft:condition",
+        "on_false": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/shields/enchanted_shield_bs"
+            },
+            {
+              "type": "minecraft:special",
+              "model": {
+                "type": "minecraft:shield"
+              },
+              "base": "minecraft:item/shield"
+            }
+          ]
+        },
+        "on_true": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/shields/enchanted_shield_blocking"
+            },
+            {
+              "type": "minecraft:special",
+              "model": {
+                "type": "minecraft:shield"
+              },
+              "base": "minecraft:item/shield_blocking"
+            }
+          ]
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "on_false": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/shield",
+          "model": {
+            "type": "minecraft:shield"
+          }
+        },
+        "on_true": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/shield_blocking",
+          "model": {
+            "type": "minecraft:shield"
+          }
+        },
+        "property": "minecraft:using_item"
+      }
+    }
+  }
+}

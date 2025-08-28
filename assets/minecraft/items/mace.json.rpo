@@ -3,6 +3,7 @@
     fallbacks: [
       "assets/minecraft/items/mace_vt_3d.json",
       "assets/minecraft/items/mace_rodger_3d.json",
-      "assets/minecraft/items/mace_but3d.json"
+      "assets/minecraft/items/mace_but3d.json",
+      "assets/minecraft/items/mace_wfh.json"
     ]
 }
