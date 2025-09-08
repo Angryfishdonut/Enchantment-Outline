@@ -9,7 +9,7 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/flint_and_steel",
+          "model": "minecraft:item/defaults/flint_and_steel",
           "tints": []
         },
         {
@@ -28,7 +28,7 @@
         "models": [
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/flint_and_steel",
+            "model": "minecraft:item/defaults/flint_and_steel",
             "tints": []
           },
           {
@@ -39,7 +39,7 @@
       },
       "on_false": {
         "type": "minecraft:model",
-        "model": "minecraft:item/flint_and_steel"
+        "model": "minecraft:item/defaults/flint_and_steel"
       }
     }
   }

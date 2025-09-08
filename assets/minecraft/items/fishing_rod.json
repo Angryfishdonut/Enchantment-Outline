@@ -16,7 +16,7 @@
               },
               {
                 "type": "minecraft:model",
-                "model": "minecraft:item/fishing_rod"
+                "model": "minecraft:item/defaults/fishing_rod"
               }
             ]
         },
@@ -29,7 +29,7 @@
               },
               {
                 "type": "minecraft:model",
-                "model": "minecraft:item/fishing_rod_cast"
+                "model": "minecraft:item/defaults/fishing_rod_cast"
               }
             ]
         }
@@ -51,7 +51,7 @@
                 },
                 {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/fishing_rod"
+                  "model": "minecraft:item/defaults/fishing_rod"
                 }
               ]
           },
@@ -64,7 +64,7 @@
                 },
                 {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/fishing_rod_cast"
+                  "model": "minecraft:item/defaults/fishing_rod_cast"
                 }
               ]
           }
@@ -74,11 +74,11 @@
           "property": "minecraft:fishing_rod/cast",
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/fishing_rod"
+            "model": "minecraft:item/defaults/fishing_rod"
           },
           "on_true": {
             "type": "minecraft:model",
-            "model": "minecraft:item/fishing_rod_cast"
+            "model": "minecraft:item/defaults/fishing_rod_cast"
           }
         }
       }
