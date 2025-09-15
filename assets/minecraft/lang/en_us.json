@@ -1,0 +1,16 @@
+{
+    "rpo.enchantmentOutline": "ENCHANTMENT OUTLINE",
+    "rpo.enchantmentOutline.compatibility.xPBottles": "XP bottles",
+    "rpo.enchantmentOutline.compatibility.books": "Enchanted Books",
+    "rpo.enchantmentOutline.glintColor.tooltip": "Change the color of the enchantment glint.",
+    "rpo.enchantmentOutline.armor.tooltip": "Enable or disable the outline on worn armor. (WARNING: QUITE BUGGY, NOT VISIBLE F5)",
+    "rpo.enchantmentOutline.guiOutline.tooltip": "Enable or disable the outline in the GUI.",
+    "rpo.enchantmentOutline.compatibility.tooltip": "Options for compatibility with other resource packs.",
+    "rpo.enchantmentOutline.compatibility.tools.tooltip": "Compatibility for packs that change most tools.",
+    "rpo.enchantmentOutline.compatibility.mace.tooltip": "Compatibility for packs that change the Mace.",
+    "rpo.enchantmentOutline.compatibility.shields.tooltip": "Compatibility for packs that change the Shield.",
+    "rpo.enchantmentOutline.compatibility.xPBottles.tooltip": "Compatibility for packs that change Bottles O' Enchanting.",
+    "rpo.enchantmentOutline.compatibility.goldenHelmet.tooltip": "Compatibility for packs that change the Golden Helmet.",
+    "rpo.enchantmentOutline.compatibility.books.tooltip": "Compatibility for packs that change Enchanted Books.",
+    "rpo.enchantmentOutline.compatibility.food.tooltip": "Compatibility for packs that change food items (Enchanted Golden Apples)."
+}
