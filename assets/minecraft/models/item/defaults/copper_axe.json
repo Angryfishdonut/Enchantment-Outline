@@ -1,0 +1,7 @@
+{
+    "parent": "item/generic_axe",
+    "textures": {
+        "axe": "item/copper_axe",
+		"particle": "item/copper_axe"
+    }
+}
