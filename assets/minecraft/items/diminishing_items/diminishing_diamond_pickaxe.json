@@ -56,21 +56,21 @@
               "threshold": 0.85,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_02"
+                "model": "minecraft:item/diamond_pickaxe_damaged0"
               }
             },
             {
               "threshold": 0.9,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_03"
+                "model": "minecraft:item/diamond_pickaxe_damaged1"
               }
             },
             {
               "threshold": 0.95,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_04"
+                "model": "minecraft:item/diamond_pickaxe_damaged2"
               }
             }
           ]
@@ -134,21 +134,21 @@
                 "threshold": 0.85,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_02"
+                  "model": "minecraft:item/diamond_pickaxe_damaged0"
                 }
               },
               {
                 "threshold": 0.9,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_03"
+                  "model": "minecraft:item/diamond_pickaxe_damaged1"
                 }
               },
               {
                 "threshold": 0.95,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_04"
+                  "model": "minecraft:item/diamond_pickaxe_damaged2"
                 }
               }
             ]
@@ -170,21 +170,21 @@
             "threshold": 0.85,
             "model": {
               "type": "minecraft:model",
-              "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_02"
+              "model": "minecraft:item/diamond_pickaxe_damaged0"
             }
           },
           {
             "threshold": 0.9,
             "model": {
               "type": "minecraft:model",
-              "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_03"
+              "model": "minecraft:item/diamond_pickaxe_damaged1"
             }
           },
           {
             "threshold": 0.95,
             "model": {
               "type": "minecraft:model",
-              "model": "minecraft:item/diamond_pickaxe/diamond_pickaxe_04"
+              "model": "minecraft:item/diamond_pickaxe_damaged2"
             }
           }
         ]

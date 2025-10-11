@@ -22,21 +22,21 @@
               "threshold": 0.85,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/shears/shears_02"
+                "model": "minecraft:item/shears_damaged0"
               }
             },
             {
               "threshold": 0.9,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/shears/shears_03"
+                "model": "minecraft:item/shears_damaged1"
               }
             },
             {
               "threshold": 0.95,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/shears/shears_04"
+                "model": "minecraft:item/shears_damaged2"
               }
             }
           ]
@@ -100,21 +100,21 @@
                 "threshold": 0.85,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/shears/shears_02"
+                  "model": "minecraft:item/shears_damaged0"
                 }
               },
               {
                 "threshold": 0.9,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/shears/shears_03"
+                  "model": "minecraft:item/shears_damaged1"
                 }
               },
               {
                 "threshold": 0.95,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/shears/shears_04"
+                  "model": "minecraft:item/shears_damaged2"
                 }
               }
             ]
@@ -170,21 +170,21 @@
             "threshold": 0.85,
             "model": {
               "type": "minecraft:model",
-              "model": "minecraft:item/shears/shears_02"
+              "model": "minecraft:item/shears_damaged0"
             }
           },
           {
             "threshold": 0.9,
             "model": {
               "type": "minecraft:model",
-              "model": "minecraft:item/shears/shears_03"
+              "model": "minecraft:item/shears_damaged1"
             }
           },
           {
             "threshold": 0.95,
             "model": {
               "type": "minecraft:model",
-              "model": "minecraft:item/shears/shears_04"
+              "model": "minecraft:item/shears_damaged2"
             }
           }
         ]

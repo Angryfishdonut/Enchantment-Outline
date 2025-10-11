@@ -9,7 +9,7 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/enchanted_sword"
+          "model": "minecraft:item/vtshortswords/enchanted_sword"
         },
         {
           "type": "minecraft:model",
@@ -27,7 +27,7 @@
         "models": [
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/enchanted_sword"
+            "model": "minecraft:item/vtshortswords/enchanted_sword"
           },
           {
             "type": "minecraft:model",
