@@ -497,7 +497,7 @@
       },
       {
         "type": "minecraft:model",
-        "model": "minecraft:item/misc_outlines/enchanted_book"
+        "model": "minecraft:item/recovered/enchanted_book_loyalty"
       }
     ]
                                             },
@@ -624,7 +624,7 @@
       },
       {
         "type": "minecraft:model",
-        "model": "minecraft:item/misc_outlines/enchanted_book"
+        "model": "minecraft:item/recovered/enchanted_book_respiration"
       }
     ]
                                                       },
@@ -725,7 +725,7 @@
       },
       {
         "type": "minecraft:model",
-        "model": "minecraft:item/misc_outlines/enchanted_book"
+        "model": "minecraft:item/recovered/enchanted_book_thorns"
       }
     ]
                                                               },

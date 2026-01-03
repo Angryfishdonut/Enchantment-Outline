@@ -1,0 +1,4 @@
+{
+    condition: "recovered.animatedCategory.respiration.animated",
+    fallback: "assets/minecraft/textures/item/enchanted_tool_overlays/recovered/enchantment_outline_respiration_unanimated.png.mcmeta"
+}
