@@ -13,7 +13,7 @@
                     shields: ["vanilla", "vtLower", "freshAnimationsPlayer", "shieldBySide"],
                     xPBottles: ["vanilla", "vtSplash"],
                     goldenHelmet: ["vanilla", "vtCrown"],
-                    books: ["vanilla", "off", "evenBetterEnchants"],
+                    books: ["vanilla", "off", "evenBetterEnchants", "reCovered"],
                     food: ["vanilla", "fresh", "theones", "vtSmallerUtilities", "vtIlmangoGapples"]
                     }
     }

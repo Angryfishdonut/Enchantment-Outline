@@ -2,6 +2,6 @@
     condition: "enchantmentOutline.compatibility.books.vanilla",
     fallbacks: [
       "assets/minecraft/items/enchanted_book_ebe.json",
-      "assets/minecraft/items/enchanted_booknt.json"
+      "assets/minecraft/items/enchanted_book_recovered.json"
     ]
 }
