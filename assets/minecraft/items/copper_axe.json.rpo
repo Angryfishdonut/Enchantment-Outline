@@ -1,0 +1,6 @@
+{
+    condition: "enchantmentOutline.compatibility.tools.vanilla | enchantmentOutline.compatibility.tools.vtShortSwords | enchantmentOutline.compatibility.tools.maddox3d | enchantmentOutline.compatibility.tools.alsMobWeapons",
+    fallbacks: [
+      "assets/minecraft/items/diminishing_items/diminishing_copper_axe.json"
+    ]
+}

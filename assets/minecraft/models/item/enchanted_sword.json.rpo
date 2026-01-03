@@ -1,6 +1,6 @@
 {
     condition: "enchantmentOutline.guiOutline.on",
     fallbacks: [
-      "assets/minecraft/models/item/vtshortswords/no_gui_outline/enchanted_sword.json"
+      "assets/minecraft/models/item/no_gui_outline/enchanted_sword.json"
     ]
 }

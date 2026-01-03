@@ -3,6 +3,7 @@
     fallbacks: [
       "assets/minecraft/items/enchanted_golden_apple_fresh.json",
       "assets/minecraft/items/enchanted_golden_apple_theones.json",
-      "assets/minecraft/items/enchanted_golden_apple_vtsmaller.json"
+      "assets/minecraft/items/enchanted_golden_apple_vtsmaller.json",
+      "assets/minecraft/items/enchanted_golden_apple_vtilmango.json"
     ]
 }

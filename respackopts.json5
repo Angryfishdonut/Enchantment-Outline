@@ -8,12 +8,13 @@
             guiOutline: ["on", "off"],
             compatibility : {
                     tools: ["vanilla", "vtDiminishing", "alsMobWeapons", "maddox3d", "vtShortSwords"],
+                    carrotSword: ["vanilla", "carrot"],
                     mace: ["vanilla", "vt3d", "rodgerRealisticMace3D", "maceBut3D", "windForgedHammer"],
                     shields: ["vanilla", "vtLower", "freshAnimationsPlayer", "shieldBySide"],
                     xPBottles: ["vanilla", "vtSplash"],
                     goldenHelmet: ["vanilla", "vtCrown"],
-                    books: ["vanilla", "evenBetterEnchants"],
-                    food: ["vanilla", "fresh", "theones", "vtSmallerUtilities"]
+                    books: ["vanilla", "off", "evenBetterEnchants"],
+                    food: ["vanilla", "fresh", "theones", "vtSmallerUtilities", "vtIlmangoGapples"]
                     }
     }
 }

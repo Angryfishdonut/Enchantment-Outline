@@ -3,6 +3,7 @@
     fallbacks: [
       "assets/minecraft/items/diminishing_items/diminishing_wooden_sword.json",
       "assets/minecraft/items/maddox3d/maddox_wooden_sword.json",
-      "assets/minecraft/items/vtshortswords/wooden_sword.json"
+      "assets/minecraft/items/vtshortswords/wooden_sword.json",
+      "assets/minecraft/items/carrot.json"
     ]
 }
