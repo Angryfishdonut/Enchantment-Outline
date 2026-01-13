@@ -1,0 +1,4 @@
+{
+  "condition": "Outlines",
+  "fallback": "assets/minecraft/models/item/eatinganimation/golden_apple/golden_apple_eat_1.json"
+}

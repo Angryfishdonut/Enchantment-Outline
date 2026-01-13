@@ -5,143 +5,263 @@
     "cases": [
       {
         "when": [
-          "gui",
-          "fixed",
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Enchanted Golden Apple",
+                "Plated Enchanted Golden Apple",
+                "Enchanted Golden Apple on Plate",
+                "Enchanted Golden Apple on a Plate",
+                "Enchanted Golden Apple Plate",
+                "Enchanted Golden Apple Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/fresh_food_outlines/plated_foods/plated_enchanted_golden_apple_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/fresh_food_outlines/enchanted_golden_apple"
+          }
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Enchanted Golden Apple",
+                "Plated Enchanted Golden Apple",
+                "Enchanted Golden Apple on Plate",
+                "Enchanted Golden Apple on a Plate",
+                "Enchanted Golden Apple Plate",
+                "Enchanted Golden Apple Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/fresh_food_outlines/plated_foods/plated_enchanted_golden_apple_3d_firstperson"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/fresh_food_outlines/eatinganimation/enchanted_golden_apple_firstperson/enchanted_golden_apple_eat_0"
+                  }
+                },
+                {
+                  "threshold": 6.4,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/fresh_food_outlines/eatinganimation/enchanted_golden_apple_firstperson/enchanted_golden_apple_eat_1"
+                  }
+                },
+                {
+                  "threshold": 12.8,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/fresh_food_outlines/eatinganimation/enchanted_golden_apple_firstperson/enchanted_golden_apple_eat_2"
+                  }
+                },
+                {
+                  "threshold": 19.2,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/fresh_food_outlines/eatinganimation/enchanted_golden_apple_firstperson/enchanted_golden_apple_eat_3"
+                  }
+                },
+                {
+                  "threshold": 25.6,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/fresh_food_outlines/eatinganimation/enchanted_golden_apple_firstperson/enchanted_golden_apple_eat_4"
+                  }
+                },
+                {
+                  "threshold": 31.5,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/enchanted_golden_apple_3d_firstperson"
+                  }
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/fresh_food_outlines/enchanted_golden_apple_3d_firstperson"
+            }
+          }
+        }
+      },
+      {
+        "when": [
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "head",
           "ground"
         ],
         "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Enchanted Golden Apple",
+                "Plated Enchanted Golden Apple",
+                "Enchanted Golden Apple on Plate",
+                "Enchanted Golden Apple on a Plate",
+                "Enchanted Golden Apple Plate",
+                "Enchanted Golden Apple Plated"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/fresh_food_outlines/plated_foods/plated_enchanted_golden_apple_3d"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "entries": [
+                {
+                  "threshold": 0,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/fresh_food_outlines/eatinganimation/enchanted_golden_apple_thirdperson/enchanted_golden_apple_eat_0"
+                  }
+                },
+                {
+                  "threshold": 6.4,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/fresh_food_outlines/eatinganimation/enchanted_golden_apple_thirdperson/enchanted_golden_apple_eat_1"
+                  }
+                },
+                {
+                  "threshold": 12.8,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/fresh_food_outlines/eatinganimation/enchanted_golden_apple_thirdperson/enchanted_golden_apple_eat_2"
+                  }
+                },
+                {
+                  "threshold": 19.2,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/fresh_food_outlines/eatinganimation/enchanted_golden_apple_thirdperson/enchanted_golden_apple_eat_3"
+                  }
+                },
+                {
+                  "threshold": 25.6,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/fresh_food_outlines/eatinganimation/enchanted_golden_apple_thirdperson/enchanted_golden_apple_eat_4"
+                  }
+                },
+                {
+                  "threshold": 31.5,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "item/enchanted_golden_apple_3d_thirdperson"
+                  }
+                }
+              ]
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/fresh_food_outlines/enchanted_golden_apple_3d_thirdperson"
+            }
+          }
+        }
+      },
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": [
+                "Plate of Enchanted Golden Apple",
+                "Plated Enchanted Golden Apple",
+                "Enchanted Golden Apple on Plate",
+                "Enchanted Golden Apple on a Plate",
+                "Enchanted Golden Apple Plate",
+                "Enchanted Golden Apple Plated"
+              ],
+              "model": {
       "type": "minecraft:composite",
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/golden_apple_2d"
+          "model": "minecraft:item/plated_foods/plated_golden_apple"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/fresh_food_outlines/plated_foods/enchanted_golden_apple"
+        }
+      ]
+              }
+            }
+          ],
+          "fallback": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/enchanted_golden_apple"
         },
         {
           "type": "minecraft:model",
           "model": "minecraft:item/misc_outlines/enchanted_golden_apple"
         }
       ]
+          }
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:condition",
-      "property": "minecraft:using_item",
-      "on_true": {
-        "type": "minecraft:range_dispatch",
-        "property": "minecraft:use_duration",
-        "entries": [
-              {
-                "threshold": 0,
-                "model": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                    "type": "minecraft:model",
-                    "model": "item/eatinganimation/golden_apple/golden_apple_eat_0"
-                    }, 
-                    {
-                    "type": "minecraft:model",
-                    "model": "item/fresh_food_outlines/eatinganimation/golden_apple/golden_apple_eat_0"
-                    }
-                  ]
-		            }
-              },
-              {
-                "threshold": 6.4,
-                "model": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                    "type": "minecraft:model",
-                    "model": "item/eatinganimation/golden_apple/golden_apple_eat_1"
-                    }, 
-                    {
-                    "type": "minecraft:model",
-                    "model": "item/fresh_food_outlines/eatinganimation/golden_apple/golden_apple_eat_1"
-                    }
-                  ]
-		            }
-              },
-              {
-                "threshold": 12.8,
-                "model": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                    "type": "minecraft:model",
-                    "model": "item/eatinganimation/golden_apple/golden_apple_eat_2"
-                    }, 
-                    {
-                    "type": "minecraft:model",
-                    "model": "item/fresh_food_outlines/eatinganimation/golden_apple/golden_apple_eat_2"
-                    }
-                  ]
-		            }
-              },
-              {
-                "threshold": 19.2,
-                "model": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                    "type": "minecraft:model",
-                    "model": "item/eatinganimation/golden_apple/golden_apple_eat_3"
-                    }, 
-                    {
-                    "type": "minecraft:model",
-                    "model": "item/fresh_food_outlines/eatinganimation/golden_apple/golden_apple_eat_3"
-                    }
-                  ]
-		            }
-              },
-              {
-                "threshold": 25.6,
-                "model": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                    "type": "minecraft:model",
-                    "model": "item/eatinganimation/golden_apple/golden_apple_eat_4"
-                    }, 
-                    {
-                    "type": "minecraft:model",
-                    "model": "item/fresh_food_outlines/eatinganimation/golden_apple/golden_apple_eat_4"
-                    }
-                  ]
-		            }
-              },
-		          {
-              "threshold": 31.5,
-              "model": {
-                "type": "minecraft:composite",
-                "models": [
-                  {
-                "type": "minecraft:model",
-                "model": "item/golden_apple"
-                }, 
-                {
-                "type": "minecraft:model",
-                "model": "item/fresh_food_outlines/enchanted_golden_apple"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "on_false": {
-        "type": "minecraft:composite",
-        "models": [
-          {
-        "type": "minecraft:model",
-        "model": "item/golden_apple"
-        }, 
+      "type": "minecraft:composite",
+      "models": [
         {
-        "type": "minecraft:model",
-        "model": "item/fresh_food_outlines/enchanted_golden_apple"
+          "type": "minecraft:model",
+          "model": "minecraft:item/enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:model",
+          "model": "minecraft:item/misc_outlines/enchanted_golden_apple"
         }
-        ]
-      }
+      ]
     }
   }
 }

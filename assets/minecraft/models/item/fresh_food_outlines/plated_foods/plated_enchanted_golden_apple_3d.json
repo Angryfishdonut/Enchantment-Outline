@@ -1,0 +1,224 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/golden_apple_3d",
+		"2": "item/plated_food/plate_3d",
+		"3": "item/enchanted_tool_overlays/enchantment_outline_e",
+		"particle": "item/food_particles/golden_apple"
+	},
+	"elements": [
+		{
+			"name": "apple",
+			"from": [5.5, 1.3, 5.5],
+			"to": [10.5, 6.3, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.9999, 5.53005, 7.46199]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 5], "texture": "#0"},
+				"east": {"uv": [0, 5, 5, 10], "texture": "#0"},
+				"south": {"uv": [5, 0, 10, 5], "texture": "#0"},
+				"west": {"uv": [5, 5, 10, 10], "texture": "#0"},
+				"up": {"uv": [5, 15, 0, 10], "texture": "#0"},
+				"down": {"uv": [15, 0, 10, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "stem",
+			"from": [7.5, 6.25594, 7.20246],
+			"to": [8.5, 8.25594, 8.20246],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [7.9999, 5.53005, 7.46199]},
+			"faces": {
+				"north": {"uv": [7, 10, 8, 12], "texture": "#0"},
+				"east": {"uv": [8, 10, 9, 12], "texture": "#0"},
+				"south": {"uv": [10, 8, 11, 10], "texture": "#0"},
+				"west": {"uv": [9, 10, 10, 12], "texture": "#0"},
+				"up": {"uv": [11, 11, 10, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "leaf",
+			"from": [7.9988, 5.68445, 6.48399],
+			"to": [8.001, 8.68685, 8.48639],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.9999, 5.53005, 7.46199]},
+			"faces": {
+				"east": {"uv": [5, 10, 7, 13], "texture": "#0"},
+				"west": {"uv": [10, 5, 12, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "apple",
+			"from": [10.74, 6.54, 10.74],
+			"to": [5.26, 1.06, 5.26],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.9999, 5.53005, 7.46199]},
+			"faces": {
+				"north": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"east": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"south": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"west": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"up": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"down": {"uv": [14, 11, 15, 12], "texture": "#3"}
+			}
+		},
+		{
+			"name": "stem",
+			"from": [8.75, 8.50594, 8.45246],
+			"to": [7.25, 6.00594, 6.95246],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [7.9999, 5.53005, 7.46199]},
+			"faces": {
+				"north": {"uv": [15, 14, 16, 15], "texture": "#3"},
+				"east": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"south": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"west": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"down": {"uv": [14, 11, 15, 12], "texture": "#3"}
+			}
+		},
+		{
+			"from": [8.2098, 7.89585, 7.29539],
+			"to": [7.7898, 5.47585, 6.27539],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.9999, 5.53005, 7.46199]},
+			"faces": {
+				"east": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"south": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"west": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"up": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"down": {"uv": [14, 11, 15, 15], "texture": "#3"}
+			}
+		},
+		{
+			"from": [8.1998, 7.88585, 8.68539],
+			"to": [7.7998, 5.48585, 7.28539],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.9999, 5.53005, 7.46199]},
+			"faces": {
+				"north": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"east": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"west": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"up": {"uv": [14, 11, 15, 12], "texture": "#3"}
+			}
+		},
+		{
+			"from": [8.1998, 8.88585, 8.68539],
+			"to": [7.7998, 7.88585, 7.28539],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.9999, 5.53005, 7.46199]},
+			"faces": {
+				"north": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"east": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"south": {"uv": [15, 11, 16, 14], "texture": "#3"},
+				"west": {"uv": [14, 11, 15, 12], "texture": "#3"},
+				"down": {"uv": [14, 11, 15, 12], "texture": "#3"}
+			}
+		},
+		{
+			"name": "plate",
+			"from": [2, 0, 2],
+			"to": [14, 1, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 2]},
+			"faces": {
+				"north": {"uv": [0, 6, 6, 6.5], "texture": "#2"},
+				"east": {"uv": [6, 0, 12, 0.5], "texture": "#2"},
+				"south": {"uv": [6, 0.5, 12, 1], "texture": "#2"},
+				"west": {"uv": [6, 1, 12, 1.5], "texture": "#2"},
+				"up": {"uv": [6, 6, 0, 0], "texture": "#2"},
+				"down": {"uv": [6, 1.5, 12, 7.5], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [70, 90, 0],
+			"translation": [0, 3.75, 2.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70, -90, 0],
+			"translation": [0, 3.75, 2.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -128, 0],
+			"translation": [0, 6.5, 1.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -128, 0],
+			"translation": [0, 6.5, 1.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, 1.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"translation": [0, 14.4, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 90, 0],
+			"translation": [0, 0, -14.08],
+			"scale": [2.01, 2.01, 2.01]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [11.2501, 4, 10.78801],
+			"color": 0,
+			"children": [
+				{
+					"name": "golden_apple",
+					"origin": [11.2501, 4, 10.78801],
+					"color": 0,
+					"children": [
+						{
+							"name": "fruit",
+							"origin": [16.2501, 0, 16.78801],
+							"color": 0,
+							"children": [0]
+						},
+						{
+							"name": "stem",
+							"origin": [11.2501, 5, 11.78801],
+							"color": 0,
+							"children": [1]
+						},
+						{
+							"name": "leaf",
+							"origin": [11.2501, 4, 10.78801],
+							"color": 0,
+							"children": [2]
+						}
+					]
+				},
+				{
+					"name": "outline",
+					"origin": [11.2501, 4, 10.78801],
+					"color": 0,
+					"children": [
+						{
+							"name": "fruit",
+							"origin": [16.2501, 0, 16.78801],
+							"color": 0,
+							"children": [3]
+						},
+						{
+							"name": "stem",
+							"origin": [11.2501, 5, 11.78801],
+							"color": 0,
+							"children": [4]
+						},
+						{
+							"name": "leaf",
+							"origin": [11.2501, 4, 10.78801],
+							"color": 0,
+							"children": [5, 6, 7]
+						}
+					]
+				}
+			]
+		},
+		8
+	]
+}

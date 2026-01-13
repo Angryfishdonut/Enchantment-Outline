@@ -1,0 +1,4 @@
+{
+  "condition": "Outlines",
+  "fallback": "assets/minecraft/models/item/golden_apple_3d.json"
+}
