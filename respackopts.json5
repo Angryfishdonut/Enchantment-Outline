@@ -11,7 +11,7 @@
                     carrotSword: ["vanilla", "carrot"],
                     mace: ["vanilla", "vt3d", "rodgerRealisticMace3D", "maceBut3D", "windForgedHammer"],
                     shields: ["vanilla", "vtLower", "freshAnimationsPlayer", "shieldBySide"],
-                    xPBottles: ["vanilla", "vtSplash"],
+                    xPBottles: ["vanilla", "vtSplash", "als3DPotions"],
                     goldenHelmet: ["vanilla", "vtCrown"],
                     books: ["vanilla", "off", "evenBetterEnchants", "reCovered"],
                     food: ["vanilla", "fresh", "theones", "vtSmallerUtilities", "vtIlmangoGapples"]
