@@ -14,7 +14,8 @@
                     xPBottles: ["vanilla", "vtSplash", "als3DPotions"],
                     goldenHelmet: ["vanilla", "vtCrown"],
                     books: ["vanilla", "off", "evenBetterEnchants", "reCovered"],
-                    food: ["vanilla", "fresh", "theones", "vtSmallerUtilities", "vtIlmangoGapples"]
+                    food: ["vanilla", "fresh", "theones", "vtSmallerUtilities", "vtIlmangoGapples"],
+                    endCrystals: ["vanilla", "off"]
                     }
     }
 }
