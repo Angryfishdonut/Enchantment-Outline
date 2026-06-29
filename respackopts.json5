@@ -3,11 +3,11 @@
     version: 13,
     capabilities: ["FileFilter", "DirFilter", "DirFilterAdditive"],
     conf: {
-            glintColor: ["purple", "blue", "green", "yellow", "orange", "red", "white", "rainbow", "black"],
+            glintColor: ["purple", "blue", "green", "yellow", "orange", "red", "pink", "white", "rainbow", "black"],
             armor: ["off", "on"],
             guiOutline: ["on", "off"],
             compatibility : {
-                    tools: ["vanilla", "vtDiminishing", "alsMobWeapons", "maddox3d", "vtShortSwords"],
+                    tools: ["vanilla", "vtDiminishing", "alsMobWeapons", "maddox3d", "vtShortSwords", "dungeonsStyleDiamond"],
                     carrotSword: ["vanilla", "carrot"],
                     mace: ["vanilla", "vt3d", "rodgerRealisticMace3D", "maceBut3D", "windForgedHammer"],
                     shields: ["vanilla", "vtLower", "freshAnimationsPlayer", "shieldBySide"],

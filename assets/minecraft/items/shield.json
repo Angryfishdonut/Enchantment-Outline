@@ -19,7 +19,31 @@
             "model": {
               "type": "minecraft:shield"
             },
-            "base": "minecraft:item/shield"
+            "base": "minecraft:item/shield",
+    "transformation": {
+      "left_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "right_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        -1,
+        -1
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    }
           }
         ]
       },
@@ -35,7 +59,31 @@
             "model": {
               "type": "minecraft:shield"
             },
-            "base": "minecraft:item/shield_blocking"
+            "base": "minecraft:item/shield_blocking",
+    "transformation": {
+      "left_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "right_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        -1,
+        -1
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    }
           }
         ]
       }
@@ -60,7 +108,31 @@
               "model": {
                 "type": "minecraft:shield"
               },
-              "base": "minecraft:item/shield"
+              "base": "minecraft:item/shield",
+    "transformation": {
+      "left_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "right_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        -1,
+        -1
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    }
             }
           ]
         },
@@ -76,7 +148,31 @@
               "model": {
                 "type": "minecraft:shield"
               },
-              "base": "minecraft:item/shield_blocking"
+              "base": "minecraft:item/shield_blocking",
+    "transformation": {
+      "left_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "right_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        -1,
+        -1
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    }
             }
           ]
         }
@@ -88,14 +184,62 @@
           "base": "minecraft:item/shield",
           "model": {
             "type": "minecraft:shield"
-          }
+          },
+    "transformation": {
+      "left_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "right_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        -1,
+        -1
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    }
         },
         "on_true": {
           "type": "minecraft:special",
           "base": "minecraft:item/shield_blocking",
           "model": {
             "type": "minecraft:shield"
-          }
+          },
+    "transformation": {
+      "left_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "right_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        -1,
+        -1
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    }
         },
         "property": "minecraft:using_item"
       }

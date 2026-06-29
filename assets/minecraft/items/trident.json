@@ -38,7 +38,31 @@
               "model": {
                 "type": "minecraft:trident"
               },
-              "base": "minecraft:item/trident_throwing"
+              "base": "minecraft:item/trident_throwing",
+      "transformation": {
+        "left_rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "right_rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          -1,
+          -1
+        ],
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      }
             },
             {
               "type": "minecraft:model",
@@ -54,7 +78,31 @@
               "model": {
                 "type": "minecraft:trident"
               },
-              "base": "minecraft:item/trident_in_hand"
+              "base": "minecraft:item/trident_in_hand",
+      "transformation": {
+        "left_rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "right_rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          -1,
+          -1
+        ],
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      }
             },
             {
               "type": "minecraft:model",
@@ -105,7 +153,31 @@
                 "model": {
                   "type": "minecraft:trident"
                 },
-                "base": "minecraft:item/trident_throwing"
+                "base": "minecraft:item/trident_throwing",
+      "transformation": {
+        "left_rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "right_rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          -1,
+          -1
+        ],
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      }
               },
               {
                 "type": "minecraft:model",
@@ -121,11 +193,59 @@
                 "model": {
                   "type": "minecraft:trident"
                 },
-                "base": "minecraft:item/trident_in_hand"
+                "base": "minecraft:item/trident_in_hand",
+      "transformation": {
+        "left_rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "right_rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          -1,
+          -1
+        ],
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      }
               },
               {
                 "type": "minecraft:model",
-                "model": "minecraft:item/tridents/enchanted_trident_in_hand"
+                "model": "minecraft:item/tridents/enchanted_trident_in_hand",
+      "transformation": {
+        "left_rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "right_rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          -1,
+          -1
+        ],
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      }
               }
             ]
           },
@@ -164,7 +284,31 @@
               "type": "minecraft:trident"
             }
           },
-          "property": "minecraft:using_item"
+          "property": "minecraft:using_item",
+      "transformation": {
+        "left_rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "right_rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          -1,
+          -1
+        ],
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      }
         },
         "property": "minecraft:display_context"
       }

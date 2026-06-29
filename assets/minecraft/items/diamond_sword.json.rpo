@@ -3,6 +3,7 @@
     fallbacks: [
       "assets/minecraft/items/diminishing_items/diminishing_diamond_sword.json",
       "assets/minecraft/items/maddox3d/maddox_diamond_sword.json",
-      "assets/minecraft/items/vtshortswords/diamond_sword.json"
+      "assets/minecraft/items/vtshortswords/diamond_sword.json",
+      "assets/minecraft/items/dungeons_style_diamond/diamond_sword.json"
     ]
 }
