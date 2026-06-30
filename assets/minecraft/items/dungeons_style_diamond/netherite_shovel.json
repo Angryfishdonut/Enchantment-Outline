@@ -9,11 +9,11 @@
       "models": [
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/dungeons_style_diamond/enchanted_diamond_hoe"
+          "model": "minecraft:item/dungeons_style_diamond/enchanted_diamond_shovel"
         },
         {
           "type": "minecraft:model",
-          "model": "minecraft:item/diamond_hoe"
+          "model": "minecraft:item/netherite_shovel"
         }
       ]
     },
@@ -27,17 +27,17 @@
         "models": [
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/dungeons_style_diamond/enchanted_diamond_hoe"
+            "model": "minecraft:item/dungeons_style_diamond/enchanted_diamond_shovel"
           },
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/diamond_hoe"
+            "model": "minecraft:item/netherite_shovel"
           }
         ]
       },
       "on_false": {
         "type": "minecraft:model",
-        "model": "minecraft:item/diamond_hoe"
+        "model": "minecraft:item/netherite_shovel"
       }
     }
   }

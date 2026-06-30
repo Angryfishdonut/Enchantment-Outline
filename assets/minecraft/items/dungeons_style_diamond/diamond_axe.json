@@ -27,7 +27,7 @@
         "models": [
           {
             "type": "minecraft:model",
-            "model": "minecraft:item/dungeons_style_diamond/enchanted_axe"
+            "model": "minecraft:item/dungeons_style_diamond/enchanted_diamond_axe"
           },
           {
             "type": "minecraft:model",

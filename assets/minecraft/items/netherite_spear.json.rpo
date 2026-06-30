@@ -1,6 +1,6 @@
 {
     condition: "enchantmentOutline.compatibility.tools.vanilla | enchantmentOutline.compatibility.tools.vtDiminishing | enchantmentOutline.compatibility.tools.alsMobWeapons | enchantmentOutline.compatibility.tools.maddox3d | enchantmentOutline.compatibility.tools.vtShortSwords",
     fallbacks: [
-      "assets/minecraft/items/dungeons_style_diamond/diamond_spear.json"
+      "assets/minecraft/items/dungeons_style_diamond/netherite_spear.json"
     ]
 }

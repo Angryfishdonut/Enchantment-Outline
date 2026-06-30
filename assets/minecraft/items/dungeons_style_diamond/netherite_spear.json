@@ -13,7 +13,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/diamond_spear"
+          "model": "minecraft:item/netherite_spear"
         },
         "when": [
           "gui",
@@ -25,7 +25,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/diamond_spear_in_hand"
+      "model": "minecraft:item/netherite_spear_in_hand"
     },
     "property": "minecraft:display_context"
         },
@@ -67,7 +67,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/diamond_spear"
+          "model": "minecraft:item/netherite_spear"
         },
         "when": [
           "gui",
@@ -79,7 +79,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/diamond_spear_in_hand"
+      "model": "minecraft:item/netherite_spear_in_hand"
     },
     "property": "minecraft:display_context"
         },
@@ -113,7 +113,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/diamond_spear"
+          "model": "minecraft:item/netherite_spear"
         },
         "when": [
           "gui",
@@ -125,7 +125,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/diamond_spear_in_hand"
+      "model": "minecraft:item/netherite_spear_in_hand"
     },
     "property": "minecraft:display_context"
       }
